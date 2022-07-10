@@ -75,6 +75,4 @@ CMakeFiles\blink.dir\main.cpp.obj: \
  C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
  C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
  C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
- C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\core/flight.cpp \
- C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\core/Sensors/AccelGyro-GY-521-MPU6050.cpp \
- C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\core/Sensors/Barometer-GY-BM-280.cpp
+ C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\core/flight.cpp

@@ -71,9 +71,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core"
-  "C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Sensors"
-  "C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/DataAndVideo"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_stdlib/include"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include"

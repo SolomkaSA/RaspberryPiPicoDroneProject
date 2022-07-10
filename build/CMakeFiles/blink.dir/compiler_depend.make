@@ -2960,9 +2960,6 @@ CMakeFiles\blink.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sd
 CMakeFiles\blink.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h
 CMakeFiles\blink.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
 CMakeFiles\blink.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h
-CMakeFiles\blink.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\flight.cpp
-CMakeFiles\blink.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\AccelGyro-GY-521-MPU6050.cpp
-CMakeFiles\blink.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\Barometer-GY-BM-280.cpp
 
 
 
@@ -3098,8 +3095,6 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\osal\osal.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\string.h":
 
-C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\Barometer-GY-BM-280.cpp:
-
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h":
@@ -3179,8 +3174,6 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_dev
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c:
-
-C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\AccelGyro-GY-521-MPU6050.cpp:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c:
 
@@ -3417,5 +3410,3 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_stdlib\include\pi
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c:
 
 C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\main.cpp:
-
-C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\flight.cpp:
