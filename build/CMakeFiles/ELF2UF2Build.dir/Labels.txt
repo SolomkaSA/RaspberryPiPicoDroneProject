@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/CMakeFiles/ELF2UF2Build
+C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/CMakeFiles/ELF2UF2Build.rule
+C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/CMakeFiles/ELF2UF2Build-complete.rule
+C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
