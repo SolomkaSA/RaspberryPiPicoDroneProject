@@ -18,6 +18,6 @@ void Run()
     bmp280_init();
     struct bmp280_calib_param params;
     bmp280_get_calib_params(&params);
-
-    Run_MPU5060();
+    float Temperature = 0, Pressure = 0;
+    Run_MPU5060(&Temperature, &Pressure, &params);
 }

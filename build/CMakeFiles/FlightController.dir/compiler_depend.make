@@ -2962,6 +2962,17 @@ CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypip
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\flight.cpp
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\AccelGyro-GY-521-MPU6050.cpp
+CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\string.h"
+CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_locale.h"
+CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\strings.h"
+CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\string.h"
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\defs.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\structure.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\code.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\include\hardware\i2c.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\i2c.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\i2c.h
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\Barometer-GY-BM-280.cpp
 
 
@@ -3344,6 +3355,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_watchdog\
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\psm.h:
 
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\i2c.h:
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\psm.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c:
@@ -3419,3 +3432,7 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_unique_id\uni
 C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\main.cpp:
 
 C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\flight.cpp:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\include\hardware\i2c.h:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\i2c.h:

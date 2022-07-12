@@ -35,7 +35,7 @@ struct AccellGyroStruct
     int16_t acceleration[3];
     int16_t gyro[3];
     int16_t temp;
-}
+};
 
 // By default these devices  are on bus address 0x68
 static int addr = 0x68;
@@ -97,15 +97,15 @@ int MPU5060_Run(AccellGyroStruct *outParam)
     puts("Default I2C pins were not defined");
 #else
     printf("Hello, MPU6050! Reading raw data from registers...\n");
-    outParam->mpu6050_read_raw(outParam->acceleration, outParam->gyro, outParam->temp);
-
+    mpu6050_read_raw(outParam->acceleration, outParam->gyro, &outParam->temp);
+    outParam->temp = ((outParam->temp / 340.0) + 36.53);
     // These are the raw numbers from the chip, so will need tweaking to be really useful.
     // See the datasheet for more information
     printf("Acc. X = %d, Y = %d, Z = %d\n", outParam->acceleration[0], outParam->acceleration[1], outParam->acceleration[2]);
     printf("Gyro. X = %d, Y = %d, Z = %d\n", outParam->gyro[0], outParam->gyro[1], outParam->gyro[2]);
     // Temperature is simple so use the datasheet calculation to get deg C.
     // Note this is chip temperature.
-    printf("Temp. = %f\n", (temp / 340.0) + 36.53);
+    printf("Temp. = %f\n", (outParam->temp / 340.0) + 36.53);
 
 #endif
     return 0;

@@ -1,11 +1,4 @@
-/**
- * Copyright (c) 2021 Raspberry Pi (Trading) Ltd.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- **/
-
 #include <stdio.h>
-
 #include "hardware/i2c.h"
 #include "pico/binary_info.h"
 #include "pico/stdlib.h"
@@ -220,7 +213,7 @@ void bmp280_get_calib_params(struct bmp280_calib_param *params)
 
 #endif
 
-int Run_MPU5060()
+int Run_MPU5060(float *Temperature, float *Pressure, bmp280_calib_param *params)
 {
 
 #if !defined(i2c_default) || !defined(PICO_DEFAULT_I2C_SDA_PIN) || !defined(PICO_DEFAULT_I2C_SCL_PIN)
@@ -233,28 +226,16 @@ int Run_MPU5060()
 
     printf("Hello, BMP280! Reading temperaure and pressure values from sensor...\n");
 
-    // I2C is "open drain", pull ups to keep signal high when no data is being sent
-    i2c_init(i2c_default, 100 * 1000);
-    gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
-    gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
-    gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
-    gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
-
-    // configure BMP280
-
-    // retrieve fixed compensation params
-    struct bmp280_calib_param params;
-    bmp280_get_calib_params(&params);
-
     int32_t raw_temperature;
     int32_t raw_pressure;
 
     bmp280_read_raw(&raw_temperature, &raw_pressure);
-    int32_t temperature = bmp280_convert_temp(raw_temperature, &params);
-    int32_t pressure = bmp280_convert_pressure(raw_pressure, raw_temperature, &params);
+    int32_t temperature = bmp280_convert_temp(raw_temperature, params);
+    int32_t pressure = bmp280_convert_pressure(raw_pressure, raw_temperature, params);
     printf("Pressure = %.3f kPa\n", pressure / 1000.f);
     printf("Temp. = %.2f C\n", temperature / 100.f);
-
+    *Temperature = (temperature / 100.f);
+    *Pressure = (pressure / 1000.f);
 #endif
     return 0;
 }
