@@ -961,6 +961,30 @@ C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\gpio
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 .PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.obj: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.obj
+
+# target to build an object file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj
+
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.i: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.i
+
+# target to preprocess a source file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i
+
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.s: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.s
+
+# target to generate assembly for a file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
+
 C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\irq.obj: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 .PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\irq.obj
 
@@ -1016,6 +1040,30 @@ C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.s
 C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 .PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
+
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.obj: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.obj
+
+# target to build an object file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
+
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.i: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.i
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.i
+
+# target to preprocess a source file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.i
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.i
+
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.s: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.s
+
+# target to generate assembly for a file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
 
 C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\sync.obj: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 .PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\sync.obj
@@ -1799,6 +1847,9 @@ help:
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.i
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.s
@@ -1806,6 +1857,9 @@ help:
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.s
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.obj
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.i
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.s
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.s

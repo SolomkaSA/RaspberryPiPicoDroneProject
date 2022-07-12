@@ -115,6 +115,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/include"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/include"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_usb_reset_interface/include"
+  "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/include"
+  "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 
 # The set of dependency files which are needed:
@@ -150,8 +152,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
+  "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.c" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" "gcc" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" "gcc" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" "gcc" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d"
   "C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_uart/uart.c" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" "gcc" "CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d"

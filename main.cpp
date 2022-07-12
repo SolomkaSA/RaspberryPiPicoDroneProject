@@ -4,6 +4,7 @@
 
 int main()
 {
+    Run();
 
     const uint led_pin = 25;
 

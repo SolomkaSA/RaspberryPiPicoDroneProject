@@ -77,4 +77,15 @@ CMakeFiles\FlightController.dir\main.cpp.obj: \
  C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
  C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\core/flight.cpp \
  C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\core/Sensors/AccelGyro-GY-521-MPU6050.cpp \
+ c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\string.h \
+ c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_locale.h \
+ c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\strings.h \
+ c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\string.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/defs.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/structure.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/code.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\include/hardware/i2c.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/i2c.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h \
  C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\core/Sensors/Barometer-GY-BM-280.cpp
