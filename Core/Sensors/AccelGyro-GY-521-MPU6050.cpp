@@ -89,7 +89,7 @@ static void mpu6050_read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp)
 }
 #endif
 
-int MPU5060_Run(AccellGyroStruct *outParam)
+int Run_MPU5060(AccellGyroStruct *outParam)
 {
 
 #if !defined(i2c_default) || !defined(PICO_DEFAULT_I2C_SDA_PIN) || !defined(PICO_DEFAULT_I2C_SCL_PIN)

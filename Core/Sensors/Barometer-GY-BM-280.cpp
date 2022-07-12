@@ -213,7 +213,7 @@ void bmp280_get_calib_params(struct bmp280_calib_param *params)
 
 #endif
 
-int Run_MPU5060(float *Temperature, float *Pressure, bmp280_calib_param *params)
+int Run_BMP280(float *Temperature, float *Pressure, bmp280_calib_param *params)
 {
 
 #if !defined(i2c_default) || !defined(PICO_DEFAULT_I2C_SDA_PIN) || !defined(PICO_DEFAULT_I2C_SCL_PIN)

@@ -1590,6 +1590,54 @@ CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\s
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h
 
 
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\include\hardware\i2c.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\assert.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\config.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: generated\pico_base\pico\config_autogen.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\boards\include\boards\pico.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\error.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_time\include\pico\time.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\i2c.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\i2c.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_resets\include\hardware\resets.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\resets.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\resets.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_clocks\include\hardware\clocks.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\clocks.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\clocks.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_time\include\pico\timeout_helper.h
+
+
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
@@ -1675,6 +1723,53 @@ CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\s
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_resets\include\hardware\resets.h
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\resets.h
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\resets.h
+
+
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_resets\include\hardware\resets.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\assert.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\config.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: generated\pico_base\pico\config_autogen.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\boards\include\boards\pico.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\error.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\resets.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\resets.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_clocks\include\hardware\clocks.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\clocks.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\clocks.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_time\include\pico\time.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
 
 
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\sync.c
@@ -3001,6 +3096,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_standard_link
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h:
 
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h:
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdio_usb\include\tusb_config.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\common\tusb_error.h:
@@ -3110,6 +3207,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\osal\osal.h:
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\string.h":
 
 C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\Barometer-GY-BM-280.cpp:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h":
 
@@ -3331,7 +3430,23 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\inclu
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c:
 
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\include\hardware\i2c.h:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\psm.h:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\i2c.h:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\i2c.h:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h:
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\sync.c:
 
@@ -3340,8 +3455,6 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_timer\tim
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\uart.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h:
-
-C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c:
 
@@ -3354,10 +3467,6 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\psm.h:
-
-C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\i2c.h:
-
-C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\psm.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c:
 
@@ -3432,7 +3541,3 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_unique_id\uni
 C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\main.cpp:
 
 C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\flight.cpp:
-
-C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\include\hardware\i2c.h:
-
-C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\i2c.h:

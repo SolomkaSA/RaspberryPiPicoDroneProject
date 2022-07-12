@@ -15,9 +15,12 @@ void Run()
 
     /*MPU5060*/
     mpu6050_reset();
+    AccellGyroStruct AccellGyro;
     bmp280_init();
     struct bmp280_calib_param params;
     bmp280_get_calib_params(&params);
     float Temperature = 0, Pressure = 0;
-    Run_MPU5060(&Temperature, &Pressure, &params);
+    Run_BMP280(&Temperature, &Pressure, &params);
+
+    Run_MPU5060(&AccellGyro);
 }
