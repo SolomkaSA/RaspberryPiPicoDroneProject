@@ -2,7 +2,7 @@
 #include "hardware/i2c.h"
 #include "pico/binary_info.h"
 #include "pico/stdlib.h"
-
+#include <math.h>
 /* Example code to talk to a BMP280 temperature and pressure sensor
 
    NOTE: Ensure the device is capable of being driven at 3.3v NOT 5v. The Pico
@@ -84,8 +84,8 @@ struct bmp280_calib_param
     int16_t dig_p8;
     int16_t dig_p9;
 };
-
 #ifdef i2c_default
+
 void bmp280_init()
 {
     // use the "handheld device dynamic" optimal setting (see datasheet)
@@ -211,21 +211,19 @@ void bmp280_get_calib_params(struct bmp280_calib_param *params)
     params->dig_p9 = (int16_t)(buf[23] << 8) | buf[22];
 }
 
-#endif
-
-int Run_BMP280(float *Temperature, float *Pressure, bmp280_calib_param *params)
+float readAltitude(float seaLevelhPa, float pressure)
 {
+    float altitude;
 
-#if !defined(i2c_default) || !defined(PICO_DEFAULT_I2C_SDA_PIN) || !defined(PICO_DEFAULT_I2C_SCL_PIN)
-#warning i2c / bmp280_i2c example requires a board with I2C pins
-    puts("Default I2C pins were not defined");
-#else
-    // useful information for picotool
-    bi_decl(bi_2pins_with_func(PICO_DEFAULT_I2C_SDA_PIN, PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C));
-    bi_decl(bi_program_description("BMP280 I2C example for the Raspberry Pi Pico"));
+    pressure /= 100;
 
-    printf("Hello, BMP280! Reading temperaure and pressure values from sensor...\n");
+    altitude = 44330 * (1.0 - pow(pressure / seaLevelhPa, 0.1903));
 
+    return altitude;
+}
+#endif
+void Run_BMP280(float seaLevelhPa, float *Temperature, float *Pressure, bmp280_calib_param *params)
+{
     int32_t raw_temperature;
     int32_t raw_pressure;
 
@@ -234,8 +232,7 @@ int Run_BMP280(float *Temperature, float *Pressure, bmp280_calib_param *params)
     int32_t pressure = bmp280_convert_pressure(raw_pressure, raw_temperature, params);
     printf("Pressure = %.3f kPa\n", pressure / 1000.f);
     printf("Temp. = %.2f C\n", temperature / 100.f);
+    printf("Altitude. = %.2f m\n", readAltitude(seaLevelhPa, pressure));
     *Temperature = (temperature / 100.f);
     *Pressure = (pressure / 1000.f);
-#endif
-    return 0;
 }

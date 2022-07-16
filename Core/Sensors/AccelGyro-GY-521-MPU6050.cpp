@@ -29,14 +29,12 @@
    3.3v (pin 36) -> VCC on MPU6050 board
    GND (pin 38)  -> GND on MPU6050 board
 */
-
 struct AccellGyroStruct
 {
     int16_t acceleration[3];
     int16_t gyro[3];
     int16_t temp;
 };
-
 // By default these devices  are on bus address 0x68
 static int addr = 0x68;
 
@@ -76,7 +74,6 @@ static void mpu6050_read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp)
     for (int i = 0; i < 3; i++)
     {
         gyro[i] = (buffer[i * 2] << 8 | buffer[(i * 2) + 1]);
-        ;
     }
 
     // Now temperature from reg 0x41 for 2 bytes

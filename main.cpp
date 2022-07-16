@@ -4,11 +4,14 @@
 
 int main()
 {
+    stdio_init_all();
     const uint led_pin = 25;
 
     // Initialize LED pin
     gpio_init(led_pin);
     gpio_set_dir(led_pin, GPIO_OUT);
+
+    // Initialize chosen serial port
 
     // Initialize chosen serial port
     stdio_init_all();

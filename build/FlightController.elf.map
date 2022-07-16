@@ -53,6 +53,10 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/FlightController.dir/main.cpp.obj
  .data          0x00000000        0x0 CMakeFiles/FlightController.dir/main.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/FlightController.dir/main.cpp.obj
+ .rodata._Z7mpu6050v.str1.4
+                0x00000000       0x80 CMakeFiles/FlightController.dir/main.cpp.obj
+ .text._Z7mpu6050v
+                0x00000000      0x134 CMakeFiles/FlightController.dir/main.cpp.obj
  .text._Z11bmp280_initv
                 0x00000000       0x40 CMakeFiles/FlightController.dir/main.cpp.obj
  .text._Z15bmp280_read_rawPlS_
@@ -63,7 +67,9 @@ Discarded input sections
                 0x00000000       0x28 CMakeFiles/FlightController.dir/main.cpp.obj
  .text._Z19bmp280_convert_templP18bmp280_calib_param
                 0x00000000       0x30 CMakeFiles/FlightController.dir/main.cpp.obj
- .text._Z3Runv  0x00000000       0x70 CMakeFiles/FlightController.dir/main.cpp.obj
+ .text._Z12readAltitudeff
+                0x00000000       0x4c CMakeFiles/FlightController.dir/main.cpp.obj
+ .text._Z3Runv  0x00000000       0x6c CMakeFiles/FlightController.dir/main.cpp.obj
  .text          0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -506,8 +512,6 @@ Discarded input sections
                 0x00000000        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.pop_r8_r11
                 0x00000000        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_dcmpeq
-                0x00000000       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap___aeabi_ui2d
                 0x00000000       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.double2int
@@ -536,8 +540,6 @@ Discarded input sections
                 0x00000000       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.double2ufix
                 0x00000000       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_d2f
-                0x00000000       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap_srqt
                 0x00000000       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap_sincostan_remainder
@@ -552,30 +554,18 @@ Discarded input sections
                 0x00000000       0x5c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap_atan2
                 0x00000000       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap_exp
-                0x00000000       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap_log
-                0x00000000       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text          0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .data          0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .text          0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .data          0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.dpow_1   0x00000000      0x274 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.dpow_int2
-                0x00000000       0xf8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.dpowint_0
                 0x00000000      0x1dc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.dpow_0   0x00000000      0x1cc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.__wrap_ldexp
-                0x00000000       0x4c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_copysign
                 0x00000000       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_trunc
                 0x00000000       0x60 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.__wrap_round
-                0x00000000       0xa0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_floor
                 0x00000000       0x94 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_ceil
@@ -598,8 +588,6 @@ Discarded input sections
                 0x00000000       0x7c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_atanh
                 0x00000000       0x60 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.__wrap_exp2
-                0x00000000       0xbc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_log2
                 0x00000000       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_exp10
@@ -614,8 +602,6 @@ Discarded input sections
                 0x00000000       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_powint
                 0x00000000       0xb0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.__wrap_pow
-                0x00000000      0x314 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_hypot
                 0x00000000      0x1ac CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_cbrt
@@ -628,9 +614,6 @@ Discarded input sections
                 0x00000000       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_remainder
                 0x00000000       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .comment       0x00000000       0x4a CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .ARM.attributes
-                0x00000000       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text          0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .data          0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .bss           0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -644,11 +627,6 @@ Discarded input sections
                 0x00000000        0xe CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.double2int64_shim
                 0x00000000       0x1a CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.double2float_shim
-                0x00000000       0x5c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.x2double_shims
-                0x00000000       0x90 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.dreduce  0x00000000       0x82 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dtan_shim
                 0x00000000       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dcos_shim
@@ -659,8 +637,6 @@ Discarded input sections
                 0x00000000       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dtrig_guts
                 0x00000000      0x2ec CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.dexp_guts
-                0x00000000      0x268 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text          0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .data          0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .bss           0x00000000        0x0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1130,9 +1106,9 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .data.i2c1_inst
                 0x00000000        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .text          0x00000000        0x0 C:\Users\Sergii\AppData\Local\Temp\ccOLuf7a.o
- .data          0x00000000        0x0 C:\Users\Sergii\AppData\Local\Temp\ccOLuf7a.o
- .bss           0x00000000        0x0 C:\Users\Sergii\AppData\Local\Temp\ccOLuf7a.o
+ .text          0x00000000        0x0 C:\Users\Sergii\AppData\Local\Temp\cc1d6Vhl.o
+ .data          0x00000000        0x0 C:\Users\Sergii\AppData\Local\Temp\cc1d6Vhl.o
+ .bss           0x00000000        0x0 C:\Users\Sergii\AppData\Local\Temp\cc1d6Vhl.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-calloc.o)
@@ -1348,11 +1324,11 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\Sergii\AppData\Local\Temp\ccOLuf7a.o
+ .boot2         0x10000000      0x100 C:\Users\Sergii\AppData\Local\Temp\cc1d6Vhl.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x7798
+.text           0x10000100     0x84c8
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1414,623 +1390,667 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
                 0x100002c0                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100002c4       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
- .text._Z11Run_MPU5060P16AccellGyroStruct
-                0x1000030c      0x138 CMakeFiles/FlightController.dir/main.cpp.obj
-                0x1000030c                Run_MPU5060(AccellGyroStruct*)
  .text._Z23bmp280_convert_pressurellP18bmp280_calib_param
-                0x10000444       0xd8 CMakeFiles/FlightController.dir/main.cpp.obj
-                0x10000444                bmp280_convert_pressure(long, long, bmp280_calib_param*)
+                0x1000030c       0xd8 CMakeFiles/FlightController.dir/main.cpp.obj
+                0x1000030c                bmp280_convert_pressure(long, long, bmp280_calib_param*)
  .text._Z23bmp280_get_calib_paramsP18bmp280_calib_param
-                0x1000051c       0x74 CMakeFiles/FlightController.dir/main.cpp.obj
-                0x1000051c                bmp280_get_calib_params(bmp280_calib_param*)
- .text._Z10Run_BMP280PfS_P18bmp280_calib_param
-                0x10000590       0xf0 CMakeFiles/FlightController.dir/main.cpp.obj
-                0x10000590                Run_BMP280(float*, float*, bmp280_calib_param*)
+                0x100003e4       0x74 CMakeFiles/FlightController.dir/main.cpp.obj
+                0x100003e4                bmp280_get_calib_params(bmp280_calib_param*)
+ .text._Z10Run_BMP280fPfS_P18bmp280_calib_param
+                0x10000458      0x13c CMakeFiles/FlightController.dir/main.cpp.obj
+                0x10000458                Run_BMP280(float, float*, float*, bmp280_calib_param*)
  .text._Z11Flight_Initv
-                0x10000680       0x38 CMakeFiles/FlightController.dir/main.cpp.obj
-                0x10000680                Flight_Init()
+                0x10000594       0x84 CMakeFiles/FlightController.dir/main.cpp.obj
+                0x10000594                Flight_Init()
  .text.startup.main
-                0x100006b8       0xb8 CMakeFiles/FlightController.dir/main.cpp.obj
-                0x100006b8                main
+                0x10000618       0x68 CMakeFiles/FlightController.dir/main.cpp.obj
+                0x10000618                main
  .text.gpio_set_function
-                0x10000770       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000770                gpio_set_function
+                0x10000680       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000680                gpio_set_function
  .text.gpio_set_pulls
-                0x100007a0       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100007a0                gpio_set_pulls
+                0x100006b0       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100006b0                gpio_set_pulls
  .text.gpio_init
-                0x100007d0       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100007d0                gpio_init
+                0x100006e0       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100006e0                gpio_init
  .text.hw_claim_or_assert
-                0x1000080c       0x44 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x1000080c                hw_claim_or_assert
+                0x1000071c       0x44 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000071c                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x10000850       0x9c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000850                hw_claim_unused_from_range
+                0x10000760       0x9c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000760                hw_claim_unused_from_range
  .text.running_on_fpga
-                0x100008ec       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100008ec                running_on_fpga
+                0x100007fc       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x100007fc                running_on_fpga
  .text.spin_locks_reset
-                0x100008fc       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100008fc                spin_locks_reset
+                0x1000080c       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x1000080c                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000918       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000918                next_striped_spin_lock_num
+                0x10000828       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000828                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x10000930       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000930                spin_lock_claim_unused
+                0x10000840       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000840                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x10000950       0x24 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000950                irq_set_enabled
+                0x10000860       0x24 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000860                irq_set_enabled
  .text.irq_set_pending
-                0x10000974       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000974                irq_set_pending
+                0x10000884       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000884                irq_set_pending
  .text.irq_has_shared_handler
-                0x10000984       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000984                irq_has_shared_handler
+                0x10000894       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000894                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x100009b0       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100009b0                irq_get_vtable_handler
+                0x100008c0       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100008c0                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x100009c0       0x54 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100009c0                irq_set_exclusive_handler
+                0x100008d0       0x54 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100008d0                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x10000a14      0x1e4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a14                irq_add_shared_handler
+                0x10000924      0x1e4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000924                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10000bf8      0x1b4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000bf8                irq_remove_handler
+                0x10000b08      0x1b4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000b08                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000dac       0xb4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000dac                irq_add_tail_to_free_list
+                0x10000cbc       0xb4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000cbc                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000e60       0x24 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000e60                irq_init_priorities
+                0x10000d70       0x24 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000d70                irq_init_priorities
  .text.user_irq_claim_unused
-                0x10000e84       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000e84                user_irq_claim_unused
+                0x10000d94       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000d94                user_irq_claim_unused
  .text.lock_init
-                0x10000eb4       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000eb4                lock_init
+                0x10000dc4       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10000dc4                lock_init
  .text.timer_pool_entry_comparator
-                0x10000ec4       0x34 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000ec4                timer_pool_entry_comparator
+                0x10000dd4       0x34 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000dd4                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x10000ef8       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e08       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10000f28      0x100 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e38      0x100 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10001028      0x1c8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f38      0x1c8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at.constprop.0
-                0x100011f0      0x11c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001100      0x11c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x1000130c       0x64 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000130c                alarm_pool_init_default
+                0x1000121c       0x64 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000121c                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10001370        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001370                alarm_pool_get_default
+                0x10001280        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001280                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10001378      0x194 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001378                alarm_pool_add_alarm_at
+                0x10001288      0x194 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001288                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x1000150c       0xac CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000150c                sleep_until
+                0x1000141c       0xac CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000141c                sleep_until
  .text.sleep_ms
-                0x100015b8       0x38 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100015b8                sleep_ms
+                0x100014c8       0x38 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100014c8                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x100015f0       0xd4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100015f0                best_effort_wfe_or_timeout
+                0x10001500       0xd4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001500                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x100016c4       0xb8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100015d4       0xb8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x1000177c       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000177c                hardware_alarm_claim
+                0x1000168c       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000168c                hardware_alarm_claim
  .text.time_us_64
-                0x10001794       0x14 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001794                time_us_64
+                0x100016a4       0x14 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100016a4                time_us_64
  .text.busy_wait_until
-                0x100017a8       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100017a8                busy_wait_until
+                0x100016b8       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100016b8                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x100017c8       0x8c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100017c8                hardware_alarm_set_callback
+                0x100016d8       0x8c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100016d8                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001854       0xe0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001854                hardware_alarm_set_target
+                0x10001764       0xe0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001764                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001934       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001934                hardware_alarm_cancel
+                0x10001844       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001844                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x10001970       0x68 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001880       0x68 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x100019d8       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100019d8                ph_post_alloc_init
+                0x100018e8       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100018e8                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10001a14       0x90 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001a14                ph_merge_two_pass
+                0x10001924       0x90 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001924                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001aa4       0xf8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100019b4       0xf8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001b9c       0xfc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001b9c                ph_remove_head
+                0x10001aac       0xfc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001aac                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001c98       0x7c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001c98                ph_remove_and_free_node
+                0x10001ba8       0x7c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001ba8                ph_remove_and_free_node
  .text.mutex_init
-                0x10001d14       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10001d14                mutex_init
+                0x10001c24       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10001c24                mutex_init
  .text.recursive_mutex_init
-                0x10001d30       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10001d30                recursive_mutex_init
+                0x10001c40       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10001c40                recursive_mutex_init
  .text.critical_section_init
-                0x10001d4c       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10001d4c                critical_section_init
+                0x10001c5c       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x10001c5c                critical_section_init
  .text.runtime_init
-                0x10001d6c       0xf0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001d6c                runtime_init
- .text.exit     0x10001e5c        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e5c                exit
- .text.panic    0x10001e60       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e60                panic
+                0x10001c7c       0xf0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001c7c                runtime_init
+ .text.exit     0x10001d6c        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001d6c                exit
+ .text.panic    0x10001d70       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001d70                panic
  .text.hard_assertion_failure
-                0x10001e90        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e90                hard_assertion_failure
+                0x10001da0        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001da0                hard_assertion_failure
  .text.clocks_init
-                0x10001e9c      0x2bc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001e9c                clocks_init
+                0x10001dac      0x2bc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001dac                clocks_init
  .text.clock_get_hz
-                0x10002158        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10002158                clock_get_hz
+                0x10002068        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10002068                clock_get_hz
  .text.pll_init
-                0x10002164       0xb0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10002164                pll_init
+                0x10002074       0xb0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10002074                pll_init
  .text.watchdog_start_tick
-                0x10002214       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10002214                watchdog_start_tick
+                0x10002124       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10002124                watchdog_start_tick
  .text.watchdog_reboot
-                0x10002224       0x98 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10002224                watchdog_reboot
+                0x10002134       0x98 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10002134                watchdog_reboot
  .text.xosc_init
-                0x100022bc       0x28 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x100022bc                xosc_init
+                0x100021cc       0x28 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x100021cc                xosc_init
  .text._out_null
-                0x100022e4        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100021f4        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x100022e8       0x9c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100021f8       0x9c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10002384      0x1cc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002294      0x1cc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x10002550       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002460       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x10002560       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10002570      0x44c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x100029bc      0x398 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002470       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x10002480      0x44c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x100028cc      0x398 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002d54      0xb04 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002c64      0xb04 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x10003858       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003858                vfctprintf
+                0x10003768       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003768                vfctprintf
  .text.weak_raw_vprintf
-                0x10003878       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003878                weak_raw_vprintf
- .text          0x100038a8       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10003788       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003788                weak_raw_vprintf
+ .text          0x100037b8       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x100038b8       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100038b8                rom_func_lookup
+                0x100037c8       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100037c8                rom_func_lookup
  .text.rom_data_lookup
-                0x100038c8       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100038c8                rom_data_lookup
+                0x100037d8       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100037d8                rom_data_lookup
  .text.rom_funcs_lookup
-                0x100038d8       0x44 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100038d8                rom_funcs_lookup
+                0x100037e8       0x44 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100037e8                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x1000391c       0x50 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x1000391c                __wrap___aeabi_idivmod
-                0x1000391c                divmod_s32s32
-                0x1000391c                div_s32s32
-                0x1000391c                __wrap___aeabi_idiv
-                0x10003924                divmod_s32s32_unsafe
-                0x10003950                divmod_s32s32_savestate
+                0x1000382c       0x50 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x1000382c                __wrap___aeabi_idivmod
+                0x1000382c                divmod_s32s32
+                0x1000382c                div_s32s32
+                0x1000382c                __wrap___aeabi_idiv
+                0x10003834                divmod_s32s32_unsafe
+                0x10003860                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x1000396c       0x4c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x1000396c                __wrap___aeabi_uidiv
-                0x1000396c                __wrap___aeabi_uidivmod
-                0x1000396c                div_u32u32
-                0x1000396c                divmod_u32u32
-                0x10003974                divmod_u32u32_unsafe
-                0x1000399c                divmod_u32u32_savestate
+                0x1000387c       0x4c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x1000387c                __wrap___aeabi_uidiv
+                0x1000387c                __wrap___aeabi_uidivmod
+                0x1000387c                div_u32u32
+                0x1000387c                divmod_u32u32
+                0x10003884                divmod_u32u32_unsafe
+                0x100038ac                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x100039b8      0x434 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100039b8                div_s64s64
-                0x100039b8                divmod_s64s64
-                0x100039b8                __wrap___aeabi_ldivmod
-                0x100039f0                divmod_u64u64
-                0x100039f0                div_u64u64
-                0x100039f0                __wrap___aeabi_uldivmod
-                0x10003a00                divmod_u64u64_savestate
-                0x10003a28                divmod_s64s64_unsafe
-                0x10003ab0                divmod_u64u64_unsafe
+                0x100038c8      0x434 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100038c8                div_s64s64
+                0x100038c8                divmod_s64s64
+                0x100038c8                __wrap___aeabi_ldivmod
+                0x10003900                divmod_u64u64
+                0x10003900                div_u64u64
+                0x10003900                __wrap___aeabi_uldivmod
+                0x10003910                divmod_u64u64_savestate
+                0x10003938                divmod_s64s64_unsafe
+                0x100039c0                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10003dec       0x80 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003dec                __wrap___aeabi_drsub
-                0x10003df2                __wrap___aeabi_dsub
-                0x10003e04                __wrap___aeabi_dadd
-                0x10003e16                __wrap___aeabi_ddiv
-                0x10003e52                __wrap___aeabi_dmul
+                0x10003cfc       0x80 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003cfc                __wrap___aeabi_drsub
+                0x10003d02                __wrap___aeabi_dsub
+                0x10003d14                __wrap___aeabi_dadd
+                0x10003d26                __wrap___aeabi_ddiv
+                0x10003d62                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10003e6c       0x6c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003e6c                __wrap___aeabi_cdrcmple
-                0x10003e7c                __wrap___aeabi_cdcmpeq
-                0x10003e7c                __wrap___aeabi_cdcmple
+                0x10003d7c       0x6c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003d7c                __wrap___aeabi_cdrcmple
+                0x10003d8c                __wrap___aeabi_cdcmpeq
+                0x10003d8c                __wrap___aeabi_cdcmple
+ .text.__wrap___aeabi_dcmpeq
+                0x10003de8       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003de8                __wrap___aeabi_dcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x10003ed8        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ed8                __wrap___aeabi_dcmplt
+                0x10003df8        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003df8                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10003ee4       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ee4                __wrap___aeabi_dcmple
+                0x10003e04       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003e04                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10003ef4       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ef4                __wrap___aeabi_dcmpge
+                0x10003e14       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003e14                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003f04        0xa CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003f04                __wrap___aeabi_dcmpgt
+                0x10003e24        0xa CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003e24                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10003f0e       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003f0e                __wrap___aeabi_dcmpun
- *fill*         0x10003f2a        0x2 
+                0x10003e2e       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003e2e                __wrap___aeabi_dcmpun
+ *fill*         0x10003e4a        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003f2c       0x38 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003f2c                __wrap___aeabi_ui2d
-                0x10003f34                __wrap___aeabi_i2d
+                0x10003e4c       0x38 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003e4c                __wrap___aeabi_ui2d
+                0x10003e54                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10003f64       0x48 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003f64                double2int_z
-                0x10003f64                __wrap___aeabi_d2iz
+                0x10003e84       0x48 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003e84                double2int_z
+                0x10003e84                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10003fac       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003fac                __wrap___aeabi_d2uiz
-                0x10003fac                double2uint
+                0x10003ecc       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ecc                __wrap___aeabi_d2uiz
+                0x10003ecc                double2uint
+ .text.__wrap___aeabi_d2f
+                0x10003ee4       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ee4                __wrap___aeabi_d2f
+ .text.__wrap_exp
+                0x10003efc       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003efc                __wrap_exp
+ .text.__wrap_log
+                0x10003f14       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003f14                __wrap_log
  .text.__aeabi_double_init
-                0x10003fc4       0x94 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003fc4                __aeabi_double_init
+                0x10003f2c       0x94 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003f2c                __aeabi_double_init
+ .text.dpow_1   0x10003fc0      0x274 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.dpow_int2
+                0x10004234       0xf8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.dpow_0   0x1000432c      0x1cc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.__wrap_ldexp
+                0x100044f8       0x4c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x100044f8                __wrap_ldexp
+ .text.__wrap_round
+                0x10004544       0xa0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x10004544                __wrap_round
+ .text.__wrap_exp2
+                0x100045e4       0xbc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x100045e4                __wrap_exp2
+ .text.__wrap_pow
+                0x100046a0      0x314 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x100046a0                __wrap_pow
  .text.double_table_shim_on_use_helper
-                0x10004058       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004058                double_table_shim_on_use_helper
+                0x100049b4       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100049b4                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10004084       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004084                drsub_shim
-                0x1000408a                dsub_shim
+                0x100049e0       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100049e0                drsub_shim
+                0x100049e6                dsub_shim
  .text.dadd_shim
-                0x10004094      0x15c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004094                dadd_shim
+                0x100049f0      0x15c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100049f0                dadd_shim
  .text.dmul_shim
-                0x100041f0      0x15c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100041f0                dmul_shim
+                0x10004b4c      0x15c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004b4c                dmul_shim
  .text.ddiv_shim
-                0x1000434c      0x1b0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000434c                ddiv_shim
+                0x10004ca8      0x1b0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004ca8                ddiv_shim
  .text.double2uint_shim
-                0x100044fc        0xe CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100044fc                double2uint_shim
-                0x100044fe                double2ufix_shim
- *fill*         0x1000450a        0x2 
+                0x10004e58        0xe CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004e58                double2uint_shim
+                0x10004e5a                double2ufix_shim
+ *fill*         0x10004e66        0x2 
  .text.double2uint64_shim
-                0x1000450c       0x70 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000450c                double2uint64_shim
-                0x1000450e                double2ufix64_shim
-                0x1000452e                d2fix_a
+                0x10004e68       0x70 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004e68                double2uint64_shim
+                0x10004e6a                double2ufix64_shim
+                0x10004e8a                d2fix_a
+ .text.double2float_shim
+                0x10004ed8       0x5c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004ed8                double2float_shim
+ .text.x2double_shims
+                0x10004f34       0x90 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004f34                uint2double_shim
+                0x10004f36                ufix2double_shim
+                0x10004f3c                int2double_shim
+                0x10004f3e                fix2double_shim
+                0x10004f44                uint642double_shim
+                0x10004f46                ufix642double_shim
+                0x10004f4c                int642double_shim
+                0x10004f4e                fix642double_shim
  .text.dunpacks
-                0x1000457c       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000457c                dunpacks
+                0x10004fc4       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004fc4                dunpacks
+ .text.dreduce  0x10005000       0x82 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10005000                dreduce
+ *fill*         0x10005082        0x2 
+ .text.dexp_guts
+                0x10005084      0x268 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10005084                dexp_shim
+                0x10005120                dln_shim
  .text.__aeabi_lmul
-                0x100045b8       0x32 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x100045b8                __wrap___aeabi_lmul
- *fill*         0x100045ea        0x2 
+                0x100052ec       0x32 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x100052ec                __wrap___aeabi_lmul
+ *fill*         0x1000531e        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x100045ec       0x48 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100045ec                __wrap___aeabi_frsub
-                0x100045f2                __wrap___aeabi_fsub
-                0x100045f8                __wrap___aeabi_fadd
-                0x100045fe                __wrap___aeabi_fdiv
-                0x10004626                __wrap___aeabi_fmul
+                0x10005320       0x48 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10005320                __wrap___aeabi_frsub
+                0x10005326                __wrap___aeabi_fsub
+                0x1000532c                __wrap___aeabi_fadd
+                0x10005332                __wrap___aeabi_fdiv
+                0x1000535a                __wrap___aeabi_fmul
  .text.__wrap___aeabi_i2f
-                0x10004634       0x44 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10004634                __wrap___aeabi_i2f
+                0x10005368       0x44 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10005368                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2d
-                0x10004678       0x14 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10004678                __wrap___aeabi_f2d
+                0x100053ac       0x14 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100053ac                __wrap___aeabi_f2d
  .text.__aeabi_float_init
-                0x1000468c       0x64 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x1000468c                __aeabi_float_init
+                0x100053c0       0x64 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100053c0                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x100046f0       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x100046f0                float_table_shim_on_use_helper
+                0x10005424       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10005424                float_table_shim_on_use_helper
  .text.float2double_shim
-                0x1000471c       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x1000471c                float2double_shim
- .text          0x1000474c       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000474c                __aeabi_mem_init
- .text.memset   0x1000475c        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000475c                __wrap_memset
- .text.memcpy   0x10004768        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004768                __wrap_memcpy
-                0x10004768                __wrap___aeabi_memcpy
+                0x10005450       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10005450                float2double_shim
+ .text          0x10005480       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10005480                __aeabi_mem_init
+ .text.memset   0x10005490        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10005490                __wrap_memset
+ .text.memcpy   0x1000549c        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x1000549c                __wrap_memcpy
+                0x1000549c                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10004774       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100054a8       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x10004784       0xb4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100054b8       0xb4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10004838       0x64 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000556c       0x64 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x1000489c       0xfc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100055d0       0xfc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10004998       0xa0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004998                __wrap_putchar
+                0x100056cc       0xa0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100056cc                __wrap_putchar
  .text.__wrap_puts
-                0x10004a38       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004a38                __wrap_puts
+                0x1000576c       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000576c                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x10004a74       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004a74                stdio_set_driver_enabled
+                0x100057a8       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100057a8                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x10004aa4       0xd8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004aa4                __wrap_vprintf
+                0x100057d8       0xd8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100057d8                __wrap_vprintf
  .text.__wrap_printf
-                0x10004b7c       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004b7c                __wrap_printf
+                0x100058b0       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100058b0                __wrap_printf
  .text.stdio_init_all
-                0x10004b94        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004b94                stdio_init_all
+                0x100058c8        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100058c8                stdio_init_all
  .text.resetd_init
-                0x10004b9c        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100058d0        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x10004ba0        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100058d4        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x10004bac       0x28 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100058e0       0x28 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x10004bd4        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10005908        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x10004bd8       0x64 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1000590c       0x64 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x10004c3c        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004c3c                usbd_app_driver_get_cb
+                0x10005970        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10005970                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x10004c48       0x34 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004c48                tud_cdc_line_coding_cb
+                0x1000597c       0x34 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1000597c                tud_cdc_line_coding_cb
  .text.stdio_usb_in_chars
-                0x10004c7c       0x68 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004c7c                stdio_usb_in_chars
+                0x100059b0       0x68 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100059b0                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x10004ce4       0xe4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005a18       0xe4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x10004dc8       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .text.usb_irq  0x10004de0       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005afc       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .text.usb_irq  0x10005b14       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x10004df0       0x24 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005b24       0x24 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_init
-                0x10004e14       0xb0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004e14                stdio_usb_init
+                0x10005b48       0xb0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005b48                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x10004ec4        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10004ec4                tud_descriptor_device_cb
+                0x10005bf8        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005bf8                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x10004ecc        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10004ecc                tud_descriptor_configuration_cb
+                0x10005c00        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005c00                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10004ed4       0x74 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10004ed4                tud_descriptor_string_cb
+                0x10005c08       0x74 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005c08                tud_descriptor_string_cb
  .text.dcd_rp2040_irq
-                0x10004f48      0x21c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005c7c      0x21c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.dcd_int_enable
-                0x10005164        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005164                dcd_int_enable
+                0x10005e98        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005e98                dcd_int_enable
  .text.dcd_set_address
-                0x10005170       0x14 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005170                dcd_set_address
+                0x10005ea4       0x14 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005ea4                dcd_set_address
  .text.dcd_connect
-                0x10005184       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005184                dcd_connect
+                0x10005eb8       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005eb8                dcd_connect
  .text.dcd_init
-                0x10005194      0x144 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005194                dcd_init
+                0x10005ec8      0x144 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005ec8                dcd_init
  .text.dcd_edpt0_status_complete
-                0x100052d8       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100052d8                dcd_edpt0_status_complete
+                0x1000600c       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000600c                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x100052f4       0xf0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100052f4                dcd_edpt_open
+                0x10006028       0xf0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10006028                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x100053e4       0xbc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100053e4                dcd_edpt_close_all
+                0x10006118       0xbc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10006118                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x100054a0       0x24 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100054a0                dcd_edpt_xfer
+                0x100061d4       0x24 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100061d4                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x100054c4       0x38 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100054c4                dcd_edpt_stall
+                0x100061f8       0x38 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100061f8                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x100054fc       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100054fc                dcd_edpt_clear_stall
+                0x10006230       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10006230                dcd_edpt_clear_stall
  .text._hw_endpoint_buffer_control_update32.part.0.isra.0
-                0x1000552c       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10006260       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .text.rp2040_usb_init
-                0x10005548       0x4c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10005548                rp2040_usb_init
+                0x1000627c       0x4c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x1000627c                rp2040_usb_init
  .text.hw_endpoint_reset_transfer
-                0x10005594        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10005594                hw_endpoint_reset_transfer
+                0x100062c8        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x100062c8                hw_endpoint_reset_transfer
  .text._hw_endpoint_buffer_control_update32
-                0x100055a0       0x44 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x100055a0                _hw_endpoint_buffer_control_update32
+                0x100062d4       0x44 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x100062d4                _hw_endpoint_buffer_control_update32
  .text.hw_endpoint_xfer_start
-                0x100055e4      0x138 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x100055e4                hw_endpoint_xfer_start
+                0x10006318      0x138 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10006318                hw_endpoint_xfer_start
  .text.hw_endpoint_xfer_continue
-                0x1000571c      0x1e4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x1000571c                hw_endpoint_xfer_continue
+                0x10006450      0x1e4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10006450                hw_endpoint_xfer_continue
  .text.tud_mounted
-                0x10005900       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005900                tud_mounted
+                0x10006634       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006634                tud_mounted
  .text.tud_suspended
-                0x10005910       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005910                tud_suspended
+                0x10006644       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006644                tud_suspended
  .text.tud_inited
-                0x10005920        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005920                tud_inited
+                0x10006654        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006654                tud_inited
  .text.tud_init
-                0x1000592c       0xd8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000592c                tud_init
+                0x10006660       0xd8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006660                tud_init
  .text.tud_task
-                0x10005a04      0x8ec CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005a04                tud_task
+                0x10006738      0x8ec CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006738                tud_task
  .text.dcd_event_bus_signal
-                0x100062f0      0x120 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100062f0                dcd_event_bus_signal
+                0x10007024      0x120 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10007024                dcd_event_bus_signal
  .text.dcd_event_bus_reset
-                0x10006410       0x54 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006410                dcd_event_bus_reset
+                0x10007144       0x54 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10007144                dcd_event_bus_reset
  .text.dcd_event_setup_received
-                0x10006464       0x50 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006464                dcd_event_setup_received
+                0x10007198       0x50 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10007198                dcd_event_setup_received
  .text.dcd_event_xfer_complete
-                0x100064b4       0x68 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100064b4                dcd_event_xfer_complete
+                0x100071e8       0x68 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100071e8                dcd_event_xfer_complete
  .text.usbd_open_edpt_pair
-                0x1000651c       0x80 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000651c                usbd_open_edpt_pair
+                0x10007250       0x80 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10007250                usbd_open_edpt_pair
  .text.usbd_edpt_open
-                0x1000659c       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000659c                usbd_edpt_open
+                0x100072d0       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100072d0                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x100065cc       0x64 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100065cc                usbd_edpt_claim
+                0x10007300       0x64 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10007300                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x10006630       0x4c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006630                usbd_edpt_release
+                0x10007364       0x4c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10007364                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x1000667c       0x48 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000667c                usbd_edpt_xfer
+                0x100073b0       0x48 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100073b0                usbd_edpt_xfer
  .text.tud_control_status
-                0x100066c4       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100066c4                tud_control_status
+                0x100073f8       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100073f8                tud_control_status
  .text.tud_control_xfer
-                0x100066f4       0xbc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100066f4                tud_control_xfer
+                0x10007428       0xbc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10007428                tud_control_xfer
  .text.usbd_control_reset
-                0x100067b0       0x14 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100067b0                usbd_control_reset
+                0x100074e4       0x14 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100074e4                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x100067c4        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100067c4                usbd_control_set_complete_callback
+                0x100074f8        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100074f8                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x100067d0       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100067d0                usbd_control_set_request
+                0x10007504       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10007504                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x100067ec       0xfc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100067ec                usbd_control_xfer_cb
+                0x10007520       0xfc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10007520                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x100068e8       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100068e8                tud_cdc_n_connected
+                0x1000761c       0x30 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000761c                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x10006918       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006918                tud_cdc_n_available
+                0x1000764c       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000764c                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x10006930       0x70 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006930                tud_cdc_n_read
+                0x10007664       0x70 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007664                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x100069a0       0x78 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100069a0                tud_cdc_n_write_flush
+                0x100076d4       0x78 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100076d4                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x10006a18       0x34 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006a18                tud_cdc_n_write
+                0x1000774c       0x34 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000774c                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x10006a4c       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006a4c                tud_cdc_n_write_available
+                0x10007780       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007780                tud_cdc_n_write_available
  .text.cdcd_init
-                0x10006a64       0x7c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006a64                cdcd_init
+                0x10007798       0x7c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007798                cdcd_init
  .text.cdcd_reset
-                0x10006ae0       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006ae0                cdcd_reset
+                0x10007814       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007814                cdcd_reset
  .text.cdcd_open
-                0x10006b0c       0xe4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006b0c                cdcd_open
+                0x10007840       0xe4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007840                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x10006bf0       0xe4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006bf0                cdcd_control_xfer_cb
+                0x10007924       0xe4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007924                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x10006cd4      0x148 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006cd4                cdcd_xfer_cb
+                0x10007a08      0x148 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007a08                cdcd_xfer_cb
  .text.tusb_init
-                0x10006e1c        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006e1c                tusb_init
+                0x10007b50        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10007b50                tusb_init
  .text.tusb_inited
-                0x10006e28        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006e28                tusb_inited
+                0x10007b5c        0x8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10007b5c                tusb_inited
  .text.tu_edpt_validate
-                0x10006e30       0x78 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006e30                tu_edpt_validate
+                0x10007b64       0x78 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10007b64                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x10006ea8       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006ea8                tu_edpt_bind_driver
+                0x10007bdc       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10007bdc                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x10006ed4       0x78 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006ed4                tu_fifo_config
+                0x10007c08       0x78 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007c08                tu_fifo_config
  .text.tu_fifo_count
-                0x10006f4c       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006f4c                tu_fifo_count
+                0x10007c80       0x20 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007c80                tu_fifo_count
  .text.tu_fifo_empty
-                0x10006f6c       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006f6c                tu_fifo_empty
+                0x10007ca0       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007ca0                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x10006f7c       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006f7c                tu_fifo_remaining
+                0x10007cb0       0x1c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007cb0                tu_fifo_remaining
  .text.tu_fifo_read
-                0x10006f98       0x9c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006f98                tu_fifo_read
+                0x10007ccc       0x9c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007ccc                tu_fifo_read
  .text.tu_fifo_read_n
-                0x10007034      0x100 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10007034                tu_fifo_read_n
+                0x10007d68      0x100 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007d68                tu_fifo_read_n
  .text.tu_fifo_write
-                0x10007134       0x7c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10007134                tu_fifo_write
+                0x10007e68       0x7c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007e68                tu_fifo_write
  .text.tu_fifo_write_n
-                0x100071b0      0x100 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100071b0                tu_fifo_write_n
+                0x10007ee4      0x100 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007ee4                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x100072b0       0x4c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100072b0                tu_fifo_clear
+                0x10007fe4       0x4c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007fe4                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x100072fc       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100072fc                tu_fifo_set_overwritable
+                0x10008030       0x3c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10008030                tu_fifo_set_overwritable
  .text.startup._retrieve_unique_id_on_boot
-                0x10007338       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x1000806c       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x10007348      0x1a8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x10007348                pico_get_unique_board_id_string
+                0x1000807c      0x1a8 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x1000807c                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x100074f0       0x40 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x100074f0                flash_get_unique_id
+                0x10008224       0x40 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x10008224                flash_get_unique_id
  .text.i2c_set_baudrate
-                0x10007530       0xc4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007530                i2c_set_baudrate
+                0x10008264       0xc4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10008264                i2c_set_baudrate
  .text.i2c_init
-                0x100075f4       0x54 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x100075f4                i2c_init
+                0x10008328       0x54 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10008328                i2c_init
  .text.i2c_write_blocking
-                0x10007648       0xd0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007648                i2c_write_blocking
+                0x1000837c       0xd0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x1000837c                i2c_write_blocking
  .text.i2c_read_blocking
-                0x10007718       0xac CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007718                i2c_read_blocking
- .text.strlen   0x100077c4       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
-                0x100077c4                strlen
+                0x1000844c       0xac CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x1000844c                i2c_read_blocking
+ .text.strlen   0x100084f8       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+                0x100084f8                strlen
  *(.fini)
- .fini          0x10007820        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x10007820                _fini
- *fill*         0x10007824        0x4 
- .fini.__stub   0x10007828       0x70 linker stubs
+ .fini          0x10008554        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x10008554                _fini
+ .fini.__stub   0x10008558       0x70 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2042,152 +2062,139 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10007898        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10007898                . = ALIGN (0x4)
+ .eh_frame      0x100085c8        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x100085c8                . = ALIGN (0x4)
 
-.glue_7         0x10007898        0x0
- .glue_7        0x10007898        0x0 linker stubs
+.glue_7         0x100085c8        0x0
+ .glue_7        0x100085c8        0x0 linker stubs
 
-.glue_7t        0x10007898        0x0
- .glue_7t       0x10007898        0x0 linker stubs
+.glue_7t        0x100085c8        0x0
+ .glue_7t       0x100085c8        0x0 linker stubs
 
-.vfp11_veneer   0x10007898        0x0
- .vfp11_veneer  0x10007898        0x0 linker stubs
+.vfp11_veneer   0x100085c8        0x0
+ .vfp11_veneer  0x100085c8        0x0 linker stubs
 
-.v4_bx          0x10007898        0x0
- .v4_bx         0x10007898        0x0 linker stubs
+.v4_bx          0x100085c8        0x0
+ .v4_bx         0x100085c8        0x0 linker stubs
 
-.iplt           0x10007898        0x0
- .iplt          0x10007898        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x100085c8        0x0
+ .iplt          0x100085c8        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10007898      0x660
+.rodata         0x100085c8      0x578
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
- .rodata._Z11Run_MPU5060P16AccellGyroStruct.str1.4
-                0x10007898       0x80 CMakeFiles/FlightController.dir/main.cpp.obj
- .rodata._Z10Run_BMP280PfS_P18bmp280_calib_param.str1.4
-                0x10007918       0x70 CMakeFiles/FlightController.dir/main.cpp.obj
+ .rodata._Z10Run_BMP280fPfS_P18bmp280_calib_param.str1.4
+                0x100085c8       0x3c CMakeFiles/FlightController.dir/main.cpp.obj
  .rodata.main.str1.4
-                0x10007988        0xb CMakeFiles/FlightController.dir/main.cpp.obj
- *fill*         0x10007993        0x1 
- .rodata.str1.4
-                0x10007994       0x2d CMakeFiles/FlightController.dir/main.cpp.obj
- *fill*         0x100079c1        0x3 
- .rodata._ZZ10Run_BMP280PfS_P18bmp280_calib_paramE8__bi_224
-                0x100079c4        0x8 CMakeFiles/FlightController.dir/main.cpp.obj
- .rodata._ZZ10Run_BMP280PfS_P18bmp280_calib_paramE8__bi_225
-                0x100079cc        0xc CMakeFiles/FlightController.dir/main.cpp.obj
- .rodata._ZZ11Flight_InitvE7__bi_11
-                0x100079d8        0x8 CMakeFiles/FlightController.dir/main.cpp.obj
+                0x10008604        0xb CMakeFiles/FlightController.dir/main.cpp.obj
+ *fill*         0x1000860f        0x1 
+ .rodata._ZZ11Flight_InitvE7__bi_13
+                0x10008610        0x8 CMakeFiles/FlightController.dir/main.cpp.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x100079e0       0x1b CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x100079fb        0x1 
+                0x10008618       0x1b CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x10008633        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x100079fc       0x1b CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10007a17        0x1 
+                0x10008634       0x1b CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000864f        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x10007a18       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10007a3a        0x2 
+                0x10008650       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10008672        0x2 
  .rodata.panic.str1.4
-                0x10007a3c       0x10 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                                 0x12 (size before relaxing)
+                0x10008674       0x12 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10008686        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x10007a4c        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10008688        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x10007a58       0x15 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10007a6d        0x3 
+                0x10008694       0x15 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x100086a9        0x3 
  .rodata._vsnprintf
-                0x10007a70      0x1e0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100086ac      0x1e0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x1000888c        0x4 
  .rodata.pow10.0
-                0x10007c50       0x50 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10008890       0x50 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x10007ca0       0x48 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100088e0       0x48 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10007ce8        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008928        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10007cf4        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008934        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10007d00        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008940        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10007d0c        0x2 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10007d0e        0x2 
+                0x1000894c        0x2 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x1000894e        0x2 
  .rodata._resetd_driver
-                0x10007d10       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10008950       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x10007d28       0x13 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x10007d3b        0x1 
+                0x10008968       0x13 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x1000897b        0x1 
  .rodata.__bi_118.0
-                0x10007d3c        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000897c        0xc CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x10007d48       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                                 0x2a (size before relaxing)
- *fill*         0x10007d6a        0x2 
+                0x10008988       0x2a CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x100089b2        0x2 
  .rodata.usbd_desc_cfg
-                0x10007d6c       0x54 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100089b4       0x54 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x10007dc0       0x12 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x10007dd2        0x2 
+                0x10008a08       0x12 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x10008a1a        0x2 
  .rodata.usbd_desc_str
-                0x10007dd4       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10008a1c       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.dcd_rp2040_irq.str1.4
-                0x10007dec       0x14 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10008a34       0x14 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata._hw_endpoint_buffer_control_update32.part.0.isra.0.str1.4
-                0x10007e00       0x1f CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10007e1f        0x1 
+                0x10008a48       0x1f CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10008a67        0x1 
  .rodata.hw_endpoint_xfer_continue.str1.4
-                0x10007e20       0x29 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10007e49        0x3 
+                0x10008a68       0x29 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10008a91        0x3 
  .rodata.str1.4
-                0x10007e4c        0x7 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10007e53        0x1 
+                0x10008a94        0x7 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10008a9b        0x1 
  .rodata.tud_task
-                0x10007e54       0x8c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10008a9c       0x8c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x10007ee0       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10007ef8                . = ALIGN (0x4)
+                0x10008b28       0x18 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10008b40                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10007ef8                . = ALIGN (0x4)
+                0x10008b40                . = ALIGN (0x4)
 
-.rel.dyn        0x10007ef8        0x0
- .rel.iplt      0x10007ef8        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x10008b40        0x0
+ .rel.iplt      0x10008b40        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10007ef8                __exidx_start = .
+                0x10008b40                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10007ef8                __exidx_end = .
-                0x10007ef8                . = ALIGN (0x4)
-                0x10007ef8                __binary_info_start = .
+                0x10008b40                __exidx_end = .
+                0x10008b40                . = ALIGN (0x4)
+                0x10008b40                __binary_info_start = .
 
-.binary_info    0x10007ef8       0x2c
+.binary_info    0x10008b40       0x24
  *(.binary_info.keep.*)
- .binary_info.keep.__bi_ptr11
-                0x10007ef8        0x4 CMakeFiles/FlightController.dir/main.cpp.obj
- .binary_info.keep.__bi_ptr224
-                0x10007efc        0x4 CMakeFiles/FlightController.dir/main.cpp.obj
- .binary_info.keep.__bi_ptr225
-                0x10007f00        0x4 CMakeFiles/FlightController.dir/main.cpp.obj
+ .binary_info.keep.__bi_ptr13
+                0x10008b40        0x4 CMakeFiles/FlightController.dir/main.cpp.obj
  .binary_info.keep.__bi_ptr22
-                0x10007f04        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008b44        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x10007f08        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008b48        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x10007f0c        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008b4c        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x10007f10        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008b50        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10007f14        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008b54        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x10007f18        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008b58        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x10007f1c        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008b5c        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr118
-                0x10007f20        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10007f24                __binary_info_end = .
-                0x10007f24                . = ALIGN (0x4)
-                0x10007f24                __etext = .
+                0x10008b60        0x4 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10008b64                __binary_info_end = .
+                0x10008b64                . = ALIGN (0x4)
+                0x10008b64                __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2196,7 +2203,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
                 0x20000000       0xc0 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x3c8 load address 0x10007f24
+.data           0x200000c0      0x3c8 load address 0x10008b64
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2300,27 +2307,27 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
                 0x20000488                . = ALIGN (0x4)
                 0x20000488                __data_end__ = .
 
-.igot.plt       0x20000488        0x0 load address 0x100082ec
+.igot.plt       0x20000488        0x0 load address 0x10008f2c
  .igot.plt      0x20000488        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000488        0x0 load address 0x100082ec
+                0x20000488        0x0 load address 0x10008f2c
                 0x20000488                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x100082ec
+.scratch_x      0x20040000        0x0 load address 0x10008f2c
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x100082ec                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10008f2c                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x100082ec
+.scratch_y      0x20041000        0x0 load address 0x10008f2c
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x100082ec                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10008f2c                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000488      0xd88
                 0x20000488                . = ALIGN (0x4)
@@ -2427,8 +2434,8 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x100082ec        0x0
-                0x100082ec                __flash_binary_end = .
+.flash_end      0x10008f2c        0x0
+                0x10008f2c                __flash_binary_end = .
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2508,7 +2515,7 @@ LOAD CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-
 LOAD CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 LOAD CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 LOAD CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-LOAD C:\Users\Sergii\AppData\Local\Temp\ccOLuf7a.o
+LOAD C:\Users\Sergii\AppData\Local\Temp\cc1d6Vhl.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2580,55 +2587,57 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000416       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .ARM.attributes
-                0x00000442       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000442       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .ARM.attributes
-                0x00000464       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000046e       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .ARM.attributes
-                0x00000486       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x00000490       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .ARM.attributes
-                0x000004a8       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x000004b2       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .ARM.attributes
-                0x000004d4       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x000004d4       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .ARM.attributes
-                0x000004f6       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000500       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .ARM.attributes
-                0x00000518       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x00000522       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .ARM.attributes
-                0x0000053a       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000544       0x22 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
  .ARM.attributes
-                0x00000566       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000566       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .ARM.attributes
-                0x00000592       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000592       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x000005be       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x000005be       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .ARM.attributes
-                0x000005ea       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000005ea       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .ARM.attributes
-                0x00000616       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000616       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .ARM.attributes
-                0x00000642       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00000642       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .ARM.attributes
-                0x0000066e       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000066e       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .ARM.attributes
-                0x0000069a       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000069a       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .ARM.attributes
-                0x000006c6       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000006c6       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .ARM.attributes
-                0x000006f2       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x000006f2       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .ARM.attributes
-                0x0000071e       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000071e       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .ARM.attributes
-                0x0000074a       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000074a       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000776       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x00000776       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .ARM.attributes
-                0x000007a2       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x000007a2       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .ARM.attributes
-                0x000007ce       0x22 C:\Users\Sergii\AppData\Local\Temp\ccOLuf7a.o
+                0x000007ce       0x2c CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
-                0x000007f0       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x000007fa       0x22 C:\Users\Sergii\AppData\Local\Temp\cc1d6Vhl.o
  .ARM.attributes
-                0x0000080e       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+                0x0000081c       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000083a       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
 
 .comment        0x00000000       0x49
  .comment       0x00000000       0x49 CMakeFiles/FlightController.dir/main.cpp.obj
@@ -2652,6 +2661,7 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .comment       0x00000049       0x4a CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .comment       0x00000049       0x4a CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .comment       0x00000049       0x4a CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .comment       0x00000049       0x4a CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .comment       0x00000049       0x4a CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
