@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <pico/stdlib.h>
-#include "core/flight.cpp"
+#include "core/FlightController.cpp"
 
 int main()
 {
+    FlightController flc;
     stdio_init_all();
     const uint led_pin = 25;
 
@@ -16,16 +17,16 @@ int main()
     // Initialize chosen serial port
     stdio_init_all();
 
-    Flight_Init();
+    flc.Init();
     // Loop forever
     while (true)
     {
-        Run();
+        flc.Run();
         // Blink LED
         printf("Blinking!\r\n");
         gpio_put(led_pin, true);
-        sleep_ms(1000);
+        sleep_ms(500);
         gpio_put(led_pin, false);
-        sleep_ms(3000);
+        sleep_ms(500);
     }
 }

@@ -3056,12 +3056,9 @@ CMakeFiles/FlightController.dir/main.cpp.obj
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
- C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/flight.cpp
- C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/Sensors/AccelGyro-GY-521-MPU6050.cpp
- C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/string.h
- C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_locale.h
- C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/strings.h
- C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/string.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FlightController.cpp
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/ChipRP2040/HandlerPicoOne.cpp
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/Common/Constants.cpp
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h
@@ -3069,7 +3066,13 @@ CMakeFiles/FlightController.dir/main.cpp.obj
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
- C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/Sensors/Barometer-GY-BM-280.cpp
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/Sensors/HandlerSensorsData.cpp
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/Sensors/MPU6050.cpp
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/string.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_locale.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/strings.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/string.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/Sensors/BMP280.cpp
  C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/math.h
  C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/cmath
  C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h
@@ -3108,5 +3111,5 @@ CMakeFiles/FlightController.dir/main.cpp.obj
  C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_hermite.tcc
  C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_laguerre.tcc
  C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/riemann_zeta.tcc
- C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/Constants.cpp
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/Sensors/Buzzer-HW508.cpp
 

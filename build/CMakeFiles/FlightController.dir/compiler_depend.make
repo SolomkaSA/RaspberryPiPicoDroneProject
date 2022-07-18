@@ -3055,12 +3055,9 @@ CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypip
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h
-CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\flight.cpp
-CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\AccelGyro-GY-521-MPU6050.cpp
-CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\string.h"
-CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_locale.h"
-CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\strings.h"
-CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\string.h"
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FlightController.cpp
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\ChipRP2040\HandlerPicoOne.cpp
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Common\Constants.cpp
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info.h
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\defs.h
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\structure.h
@@ -3068,7 +3065,13 @@ CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypip
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_i2c\include\hardware\i2c.h
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\i2c.h
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\i2c.h
-CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\Barometer-GY-BM-280.cpp
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\HandlerSensorsData.cpp
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\MPU6050.cpp
+CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\string.h"
+CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_locale.h"
+CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\strings.h"
+CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\string.h"
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\BMP280.cpp
 CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\math.h"
 CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cmath"
 CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\cpp_type_traits.h"
@@ -3107,7 +3110,7 @@ CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Em
 CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\poly_hermite.tcc"
 CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\poly_laguerre.tcc"
 CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\riemann_zeta.tcc"
-CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Constants.cpp
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\Buzzer-HW508.cpp
 
 
 
@@ -3245,8 +3248,6 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\osal\osal.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\string.h":
 
-C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\Barometer-GY-BM-280.cpp:
-
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h":
@@ -3333,8 +3334,6 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_dev
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c:
 
-C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\AccelGyro-GY-521-MPU6050.cpp:
-
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c:
@@ -3409,8 +3408,6 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\sem.c:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\syslimits.h":
 
-C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Constants.cpp:
-
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_util\include\pico\util\pheap.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\sync.h:
@@ -3422,6 +3419,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_util\datetime.c:
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_util\include\pico\util\datetime.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_util\queue.c:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\MPU6050.cpp:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\pstl\pstl_config.h":
 
@@ -3587,7 +3586,15 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_unique_id\uni
 
 C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\main.cpp:
 
-C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\flight.cpp:
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FlightController.cpp:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\ChipRP2040\HandlerPicoOne.cpp:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Common\Constants.cpp:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\HandlerSensorsData.cpp:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\BMP280.cpp:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cmath":
 
@@ -3648,3 +3655,5 @@ C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\flight.
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\poly_laguerre.tcc":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\riemann_zeta.tcc":
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\Buzzer-HW508.cpp:
