@@ -988,6 +988,7 @@ CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/l
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/ctype.h
 
 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/critical_section.c.obj
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/critical_section.c
@@ -1507,6 +1508,64 @@ CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/s
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
 
+CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/dma.c
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/reent.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/lock.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/select.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_sigset.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timeval.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/sched.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/stdio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/version.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/config.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/config_autogen.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/boards/include/boards/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/error.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+
 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.c
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h
@@ -1724,6 +1783,51 @@ CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/s
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+
+CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/version.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/config.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/config_autogen.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/boards/include/boards/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/error.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_rtc/include/hardware/rtc.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 
 CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.c
@@ -2979,6 +3083,628 @@ CMakeFiles/FlightController.dir/C_/Work/DroneProjects/raspberrypipico/pico-sdk/s
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/error.h
  C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.c
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/diskio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffsystem.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffsystem.c
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/reent.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/lock.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/stdlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/alloca.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffunicode.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffunicode.c
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/reent.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/lock.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/select.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_sigset.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timeval.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/sched.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/stdio.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/inttypes.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_locale.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/string.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/reent.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/lock.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/strings.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/string.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/mutex.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/assert.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/version.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/config.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/config_autogen.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/boards/include/boards/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/error.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/include/pico/time.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.c
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/select.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_sigset.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timeval.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/sched.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/stdio.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/sem.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/diskio.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/reent.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/lock.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/select.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_sigset.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timeval.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/sched.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/string.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_locale.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/strings.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/string.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/assert.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/version.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/config.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/config_autogen.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/boards/include/boards/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/error.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/mutex.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/include/pico/time.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/sem.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/version.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/config.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/config_autogen.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/boards/include/boards/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/error.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/include/pico/time.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/mutex.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/sem.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/reent.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/lock.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/select.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_sigset.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timeval.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/sched.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/stdio.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/errno.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/errno.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/reent.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/lock.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/limits.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/syslimits.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/stdlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/alloca.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/string.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_locale.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/strings.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/string.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/select.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_sigset.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timeval.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/sched.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/stdio.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/ff_stdio.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/reent.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/lock.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/select.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_sigset.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timeval.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/sched.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/stdio.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/diskio.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/assert.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/version.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/config.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/config_autogen.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/boards/include/boards/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/error.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/mutex.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/include/pico/time.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/sem.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/reent.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/lock.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/select.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_sigset.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timeval.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/sched.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/stdio.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h
+
+CMakeFiles/FlightController.dir/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_newlib_version.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/config.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/features.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/cdefs.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_default_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/reent.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/_ansi.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/lock.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/_endian.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/select.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_sigset.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timeval.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_timespec.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/sched.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/types.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/stdio.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/time.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine/time.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_locale.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_rtc/include/hardware/rtc.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/assert.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdint.h
+ C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys/_intsup.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/version.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/config.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/generated/pico_base/pico/config_autogen.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/boards/include/boards/pico.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/types.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_base/include/pico/error.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_time/include/pico/time.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/util.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/rtc.h
+
 CMakeFiles/FlightController.dir/main.cpp.obj
  C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/main.cpp
  C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/stdio.h
@@ -3112,4 +3838,19 @@ CMakeFiles/FlightController.dir/main.cpp.obj
  C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_laguerre.tcc
  C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/riemann_zeta.tcc
  C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/Sensors/Buzzer-HW508.cpp
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDCard.cpp
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/mutex.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h
+ C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+ C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/common/pico_sync/include/pico/sem.h
 

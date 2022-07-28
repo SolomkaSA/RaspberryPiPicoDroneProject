@@ -16,7 +16,7 @@ pico_sdk_init()
 add_executable(${PROJECT_NAME} 
     main.cpp
 )
-
+add_subdirectory(Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
 # Create map/bin/hex/uf2 files
 pico_add_extra_outputs(${PROJECT_NAME})
 
@@ -25,6 +25,7 @@ target_link_libraries(${PROJECT_NAME}
     pico_stdlib
     hardware_spi
     hardware_i2c
+    FatFs_SPI
 )
 # Enable usb output, disable uart output
 pico_enable_stdio_usb(${PROJECT_NAME} 1)

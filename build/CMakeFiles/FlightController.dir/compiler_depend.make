@@ -987,6 +987,7 @@ CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\l
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\tusb.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.h
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\tusb.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\cdc\cdc.h
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\tusb.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\device\usbd_pvt.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\tusb.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\ctype.h"
 
 
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\critical_section.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\critical_section.c
@@ -1507,6 +1508,64 @@ CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\s
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h
 
 
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\select.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timeval.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timespec.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\assert.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\config.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: generated\pico_base\pico\config_autogen.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\boards\include\boards\pico.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\error.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_claim\include\hardware\claim.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h
+
+
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_flash\flash.c
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_flash\include\hardware\flash.h
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
@@ -1723,6 +1782,51 @@ CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\s
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_resets\include\hardware\resets.h
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\resets.h
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\resets.h
+
+
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\assert.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\config.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: generated\pico_base\pico\config_autogen.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\boards\include\boards\pico.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\error.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\include\hardware\rtc.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\rtc.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\rtc.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_resets\include\hardware\resets.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\resets.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\resets.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_clocks\include\hardware\clocks.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\clocks.h
+CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\clocks.h
 
 
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c
@@ -2979,6 +3083,628 @@ CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\s
 CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_unique_id\include\pico\unique_id.h
 
 
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\diskio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\stdlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\alloca.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\select.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timeval.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\inttypes.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_locale.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\string.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\strings.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\string.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\mutex.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\lock_core.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\assert.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\config.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: generated\pico_base\pico\config_autogen.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\boards\include\boards\pico.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\error.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_time\include\pico\time.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\hw_config.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\select.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timeval.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\hw_config.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\sem.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\diskio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.h
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\select.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timeval.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\string.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_locale.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\strings.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\string.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\assert.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\config.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: generated\pico_base\pico\config_autogen.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\boards\include\boards\pico.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\error.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\mutex.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\lock_core.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_time\include\pico\time.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\sem.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.h
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_stdlib\include\pico\stdlib.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\assert.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\config.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: generated\pico_base\pico\config_autogen.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\boards\include\boards\pico.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\error.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdio\include\pico\stdio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_time\include\pico\time.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_uart\include\hardware\uart.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\uart.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\mutex.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\lock_core.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\sem.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\select.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timeval.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\errno.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\errno.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\limits.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\syslimits.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\limits.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\syslimits.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\stdlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\alloca.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\string.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_locale.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\strings.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\string.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\select.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timeval.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\f_util.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\ff_stdio.h
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\select.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timeval.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\diskio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\hw_config.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\assert.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\config.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: generated\pico_base\pico\config_autogen.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\boards\include\boards\pico.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\error.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\mutex.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\lock_core.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_time\include\pico\time.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\sem.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\select.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timeval.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
+
+
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\select.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timeval.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timespec.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\time.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\time.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_locale.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\include\hardware\rtc.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\assert.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\config.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: generated\pico_base\pico\config_autogen.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\boards\include\boards\pico.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\error.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\rtc.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\rtc.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdio\include\pico\stdio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_stdlib\include\pico\stdlib.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_time\include\pico\time.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_uart\include\hardware\uart.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\uart.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_util\include\pico\util\datetime.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\util.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\scb.h
+CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\rtc.h
+
+
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\main.cpp
 CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
 CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
@@ -3111,6 +3837,21 @@ CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Em
 CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\poly_laguerre.tcc"
 CMakeFiles\FlightController.dir\main.cpp.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\riemann_zeta.tcc"
 CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\Buzzer-HW508.cpp
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDCard.cpp
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\mutex.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\lock_core.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h
+CMakeFiles\FlightController.dir\main.cpp.obj: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico\sem.h
 
 
 
@@ -3129,6 +3870,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\boards\include\boards\pico.h:
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h":
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\assert.h:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h:
 
 generated\pico_base\pico\config_autogen.h:
 
@@ -3224,6 +3967,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\inclu
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h":
 
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c:
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\irq.c:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h":
@@ -3241,6 +3986,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\cmsis\include\cmsi
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_base\include\pico\error.h:
 
@@ -3273,6 +4020,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\numeric_traits.h":
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\hw_config.c:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\alloca.h":
 
@@ -3328,11 +4077,17 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include\pico
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.h:
 
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c:
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\time.h":
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c:
 
@@ -3344,9 +4099,13 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\msc\msc_dev
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c:
 
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c:
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\device\dcd_attr.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c:
 
@@ -3364,11 +4123,17 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\portable\raspberr
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.h:
 
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c:
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\usb.h:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\usb.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\ctype.h":
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h:
 
@@ -3392,6 +4157,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\portable\raspberr
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\lib\tinyusb\src\tusb.c:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\time.h":
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\critical_section.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\lock_core.c:
@@ -3399,6 +4166,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\lock_core.c:
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\mutex.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\sem.c:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\rtc.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\limits.h":
 
@@ -3442,6 +4211,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_watchdog\
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\watchdog.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\errno.h":
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\watchdog.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pll.h:
@@ -3464,6 +4235,14 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\inclu
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h:
 
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h:
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_flash\flash.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_flash\include\hardware\flash.h:
@@ -3473,6 +4252,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\inclu
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\math.h":
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\ioqspi.h:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffconf.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c:
 
@@ -3486,9 +4267,17 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\inclu
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\i2c.h:
 
-C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h:
-
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\structure.h:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\include\hardware\rtc.h:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c:
+
+C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\rtc.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c:
 
@@ -3499,6 +4288,10 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\sync
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_timer\timer.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\uart.h:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\ff_stdio.h:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h:
 
@@ -3513,8 +4306,6 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\psm.h:
-
-C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_bootrom\include\pico\bootrom\sf_table.h:
 
@@ -3534,6 +4325,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_float\float_m
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_float\include\pico\float.h:
 
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\util.h:
+
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\float.h":
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_malloc\include\pico\malloc.h:
@@ -3541,6 +4334,8 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_malloc\includ
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\tbman.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sysinfo.h:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_printf\include\pico\printf.h:
 
@@ -3550,15 +4345,17 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\inclu
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cassert":
 
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c:
+
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info.h:
 
-C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\structure.h:
-
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\code.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cstdlib":
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\hw_config.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\c++config.h":
 
@@ -3583,6 +4380,32 @@ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_stdlib\stdlib
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_stdlib\include\pico\stdlib.h:
 
 C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.h:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\diskio.h:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.h:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\errno.h":
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\f_util.h:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\modified_bessel_func.tcc":
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\rtc.h:
 
 C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\main.cpp:
 
@@ -3648,8 +4471,6 @@ C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\legendre_function.tcc":
 
-"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\modified_bessel_func.tcc":
-
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\poly_hermite.tcc":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\poly_laguerre.tcc":
@@ -3657,3 +4478,5 @@ C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\tr1\riemann_zeta.tcc":
 
 C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\Sensors\Buzzer-HW508.cpp:
+
+C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDCard.cpp:

@@ -130,4 +130,19 @@ CMakeFiles\FlightController.dir\main.cpp.obj: \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\tr1\poly_hermite.tcc \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\tr1\poly_laguerre.tcc \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\tr1\riemann_zeta.tcc \
- C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\core/Sensors/Buzzer-HW508.cpp
+ C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\core/Sensors/Buzzer-HW508.cpp \
+ C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\core/FileSystem/SDCard.cpp \
+ C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver/sd_card.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include/pico/mutex.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include/pico/lock_core.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_sync\include/hardware/sync.h \
+ C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source/ff.h \
+ C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source/ffconf.h \
+ C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver/spi.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\include/hardware/dma.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/dma.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dma.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\include/hardware/spi.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/spi.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h \
+ C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\common\pico_sync\include/pico/sem.h

@@ -1,7 +1,7 @@
 #define I2C_DEFAULT_BLOCK 0
 
-#define I2C_SDA_PIN 6
-#define I2C_SCL_PIN 7
+#define I2C_SDA_PIN 4 // it is a GP ports not a pin!
+#define I2C_SCL_PIN 5
 
 #define BUZZER_SOUND_PIN 29
 

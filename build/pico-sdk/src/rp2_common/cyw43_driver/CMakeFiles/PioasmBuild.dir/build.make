@@ -81,11 +81,11 @@ pico-sdk\src\rp2_common\cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-bu
 	cd C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\build
 
 pico-sdk\src\rp2_common\cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-configure: pico-sdk\src\rp2_common\cyw43_driver\pioasm\tmp\PioasmBuild-cfgcmd.txt
-pico-sdk\src\rp2_common\cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-configure: pico-sdk\src\rp2_common\cyw43_driver\pioasm\tmp\PioasmBuild-cache-Release.cmake
+pico-sdk\src\rp2_common\cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-configure: pico-sdk\src\rp2_common\cyw43_driver\pioasm\tmp\PioasmBuild-cache-Debug.cmake
 pico-sdk\src\rp2_common\cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-configure: pico-sdk\src\rp2_common\cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
 	cd C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\build\pioasm
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" "-GNMake Makefiles" -CC:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake C:/Work/DroneProjects/raspberrypipico/pico-sdk/tools/pioasm
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" "-GNMake Makefiles" -CC:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake C:/Work/DroneProjects/raspberrypipico/pico-sdk/tools/pioasm
 	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 	cd C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\build
 

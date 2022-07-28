@@ -8,7 +8,7 @@ class HandlerPicoOne
 public:
     void InitBoard()
     {
-        i2c_init(I2C_DEFAULT_BLOCK, 400 * 1000);
+        i2c_init(i2c_default, 400 * 1000);
         gpio_set_function(I2C_SDA_PIN, GPIO_FUNC_I2C);
         gpio_set_function(I2C_SCL_PIN, GPIO_FUNC_I2C);
         gpio_pull_up(I2C_SDA_PIN);

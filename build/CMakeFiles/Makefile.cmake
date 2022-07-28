@@ -31,6 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPython/Support.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPython3.cmake"
   "C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/CMakeLists.txt"
+  "C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeLists.txt"
   "CMakeFiles/3.24.0-rc2/CMakeASMCompiler.cmake"
   "CMakeFiles/3.24.0-rc2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.0-rc2/CMakeCXXCompiler.cmake"
@@ -212,7 +213,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
   "pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-source_dirinfo.txt"
   "pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cfgcmd.txt"
-  "pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake"
+  "pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake"
   "pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_lwip/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_arch/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -226,6 +227,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2040/hardware_regs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2040/hardware_structs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "build/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

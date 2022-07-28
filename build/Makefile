@@ -913,6 +913,30 @@ C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_divider\d
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 .PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.obj: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.obj
+
+# target to build an object file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.i: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.i
+
+# target to preprocess a source file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.s: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.s
+
+# target to generate assembly for a file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+
 C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_flash\flash.obj: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj
 .PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_flash\flash.obj
 
@@ -1040,6 +1064,30 @@ C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.s
 C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 .PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
+
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.obj: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.obj
+
+# target to build an object file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj
+
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.i: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.i
+
+# target to preprocess a source file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i
+
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.s: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.s
+
+# target to generate assembly for a file
+C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s
+.PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s
 
 C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.obj: C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
 .PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\hardware_spi\spi.obj
@@ -1713,6 +1761,318 @@ C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_unique_id\uni
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
 .PHONY : C_\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
 
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ff.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffsystem.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff14a\source\ffunicode.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.s
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.obj: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.obj
+
+# target to build an object file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.i: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.i
+
+# target to preprocess a source file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.i
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.i
+
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.s: Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.s
+
+# target to generate assembly for a file
+Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlightController.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FlightController.dir\Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.s
+.PHONY : Core\FileSystem\SDPicoGitProject\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1841,6 +2201,9 @@ help:
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/dma.i
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_dma/dma.s
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.i
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_flash/flash.s
@@ -1857,6 +2220,9 @@ help:
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_pll/pll.s
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i
+	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_rtc/rtc.s
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.obj
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.i
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/hardware_spi/spi.s
@@ -1941,6 +2307,45 @@ help:
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffsystem.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffsystem.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffsystem.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffunicode.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffunicode.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffunicode.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.s
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.obj
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.i
+	@echo ... Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

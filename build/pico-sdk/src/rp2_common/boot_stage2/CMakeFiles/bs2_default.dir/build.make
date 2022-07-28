@@ -89,7 +89,7 @@ pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf: pico-sdk\src\rp2_common\boo
 pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf: C:\Work\DroneProjects\raspberrypipico\pico-sdk\src\rp2_common\boot_stage2\boot_stage2.ld
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking ASM executable bs2_default.elf"
 	cd C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\build\pico-sdk\src\rp2_common\boot_stage2
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG -Wl,--build-id=none --specs=nosys.specs -nostartfiles -Wl,--script=C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/boot_stage2/boot_stage2.ld -Wl,-Map=bs2_default.elf.map $(bs2_default_OBJECTS) $(bs2_default_EXTERNAL_OBJECTS) -o bs2_default.elf 
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb -Og -g -Wl,--build-id=none --specs=nosys.specs -nostartfiles -Wl,--script=C:/Work/DroneProjects/raspberrypipico/pico-sdk/src/rp2_common/boot_stage2/boot_stage2.ld -Wl,-Map=bs2_default.elf.map $(bs2_default_OBJECTS) $(bs2_default_EXTERNAL_OBJECTS) -o bs2_default.elf 
 	cd C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\build
 	cd C:\Work\DroneProjects\raspberrypipico\RaspberryPiPico-Drone-Project\build\pico-sdk\src\rp2_common\boot_stage2
 	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -h C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf >bs2_default.dis
