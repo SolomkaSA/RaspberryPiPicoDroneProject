@@ -238,16 +238,6 @@ void PullBracketsOut()
 
 int Calibrate()
 {
-  // stdio_init_all();
-
-  // // I2C Initialisation. Using it at 400Khz.
-  // i2c_init(i2c_default, 400 * 1000);
-
-  // gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
-  // gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
-  // gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
-  // gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
-
   // setup blink led
   gpio_init(PICO_DEFAULT_LED_PIN);
   gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);

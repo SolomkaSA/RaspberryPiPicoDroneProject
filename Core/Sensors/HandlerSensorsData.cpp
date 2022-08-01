@@ -6,22 +6,21 @@ class HandlerSensorsData
 {
 
 public:
-    int16_t GyroX, GyroY, GyroZ;
-    int16_t AccelX, AccelY, AccelZ;
-    int16_t GyroAccelTemperature, BMPEnviromentTemperature;
-    int16_t PWMMotor1, PWMMotor2, PWMMotor3, PWMMotor4;
+    float GyroXRoll, GyroYPitch, GyroZYaw;
+    float AccelX, AccelY, AccelZ;
+    float GyroAccelTemperature, EnviromentTemperature, Pressure;
+    float PWMMotor1, PWMMotor2, PWMMotor3, PWMMotor4;
     struct bmp280_calib_param params;
-    AccellGyroStruct AccellGyro;
     void Calibrate()
     {
         bmp280_get_calib_params(&params);
     }
     void Reset()
     {
-        mpu6050_reset();
     }
     void Init()
     {
+        MPU6050_Init();
         bmp280_init();
     }
     void LoadData()
@@ -29,9 +28,11 @@ public:
     }
     void StartHandling()
     {
-        Run_MPU5060(&AccellGyro);
-        float Temperature = 0, Pressure = 0;
-        Run_BMP280(1002.58, &Temperature, &Pressure, &params);
+        MPU6050_YawPitchRoll(&GyroZYaw, &GyroYPitch, &GyroXRoll, &GyroAccelTemperature);
+        Run_BMP280(1002.58, &EnviromentTemperature, &Pressure, &params);
+
+        printf("GyroZYaw %.3f, &GyroYPitch %.3f, GyroXRoll %.3f, &GyroAccelTemperature %.3f, &EnviromentTemperature %.3f, &Pressure %.3f",
+               GyroZYaw, GyroYPitch, GyroXRoll, GyroAccelTemperature, EnviromentTemperature, Pressure);
     }
     void StopHandling(bool force = false)
     {
