@@ -1,3 +1,0 @@
-C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/pioasm/CMakeFiles/pioasm.dir
-C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/pioasm/CMakeFiles/edit_cache.dir
-C:/Work/DroneProjects/raspberrypipico/RaspberryPiPico-Drone-Project/build/pioasm/CMakeFiles/rebuild_cache.dir

@@ -29,11 +29,11 @@ public:
     void Run()
     {
         Sensors.StartHandling();
-        sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
-        sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
-        sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
-        sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
-        sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
-        sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
+        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
+        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
+        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
+        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
+        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
+        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
     }
 };
