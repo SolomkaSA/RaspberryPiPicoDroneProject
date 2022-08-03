@@ -1,3 +1,5 @@
+#pragma once
+
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "sd_card.h"
@@ -10,7 +12,7 @@ class SDCard
     FIL fil;
 
 public:
-    void WriteIntoFile(char filename[], char text[])
+    void WriteIntoFile(char filename[], char *text)
     {
         int ret;
         // Initialize SD card

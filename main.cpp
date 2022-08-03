@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <pico/stdlib.h>
 #include "core/FlightController.cpp"
-
+#include "core/FileSystem/SDCard.cpp"
 int main()
 {
     stdio_init_all();

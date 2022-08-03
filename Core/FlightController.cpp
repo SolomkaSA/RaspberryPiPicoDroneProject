@@ -1,12 +1,12 @@
 #include "ChipRP2040/HandlerPicoOne.cpp"
 #include "Sensors/HandlerSensorsData.cpp"
-#include "FileSystem/SDCard.cpp"
+// #include "FileSystem/SDCard.cpp"
 class FlightController
 {
 private:
     HandlerPicoOne Board;
     HandlerSensorsData Sensors;
-    SDCard sdCard;
+    // SDCard sdCard;
 
 public:
     bool RunAutoPilot, ForeAttack, SearchingTargets, InFlight;
@@ -29,11 +29,5 @@ public:
     void Run()
     {
         Sensors.StartHandling();
-        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
-        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
-        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
-        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
-        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
-        // sdCard.WriteIntoFile("test.txt", "tetet et etetetet");
     }
 };
