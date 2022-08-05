@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/Core"
+                "${workspaceFolder}/Core",
+                "${workspaceFolder}/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver"
             ],
             "defines": [
                 "_DEBUG",

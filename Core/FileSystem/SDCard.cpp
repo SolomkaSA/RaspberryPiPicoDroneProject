@@ -4,6 +4,7 @@
 #include "pico/stdlib.h"
 #include "sd_card.h"
 #include "ff.h"
+#include "rtc.h"
 
 class SDCard
 {
@@ -14,6 +15,8 @@ class SDCard
 public:
     void WriteIntoFile(char filename[], char *text)
     {
+        time_init();
+
         int ret;
         // Initialize SD card
         if (!sd_init_driver())
@@ -33,7 +36,8 @@ public:
         }
 
         // Open file for writing ()
-        fr = f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
+        fr = f_open(&fil, filename, FA_OPEN_APPEND | FA_WRITE);
+        // fr = f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
         if (fr != FR_OK)
         {
             printf("ERROR: Could not open file (%d)\r\n", fr);
@@ -43,14 +47,6 @@ public:
 
         // Write something to file
         ret = f_printf(&fil, text);
-        if (ret < 0)
-        {
-            printf("ERROR: Could not write to file (%d)\r\n", ret);
-            f_close(&fil);
-            while (true)
-                ;
-        }
-        ret = f_printf(&fil, "of writing to an SD card.\r\n");
         if (ret < 0)
         {
             printf("ERROR: Could not write to file (%d)\r\n", ret);
