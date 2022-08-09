@@ -1,18 +1,20 @@
 #include "ChipRP2040/HandlerPicoOne.cpp"
 #include "Sensors/HandlerSensorsData.cpp"
-// #include "FileSystem/SDCard.cpp"
+#include "FileSystem/SDCard.cpp"
+
 class FlightController
 {
 private:
     HandlerPicoOne Board;
     HandlerSensorsData Sensors;
-    // SDCard sdCard;
+    SDCard sdCard;
 
 public:
     bool RunAutoPilot, ForeAttack, SearchingTargets, InFlight;
     // int16_t[] SelectedAutopilot;
     int16_t Pitch, Yaw, Roll;
     int16_t CurrentHight, MinimumHight, MaximumHight, AvgHight;
+    int16_t Motor1, Motor2, Motor3, Motor4;
 
     void Init()
     {
