@@ -2,6 +2,7 @@
 #include "BMP280.cpp"
 #include "Buzzer-HW508.cpp"
 #include "../../Core/FileSystem/SDCard.cpp"
+#include "../../Core/DataAndVideo/CommunicationWIFI.cpp"
 
 class HandlerSensorsData
 {
@@ -11,7 +12,7 @@ public:
     float GyroAccelTemperature, EnviromentTemperature, Pressure;
     float PWMMotor1, PWMMotor2, PWMMotor3, PWMMotor4;
     struct bmp280_calib_param params;
-
+    CommunicationWIFI connection;
     SDCard sdCard;
     void Calibrate()
     {
@@ -22,6 +23,7 @@ public:
     }
     void Init()
     {
+        connection.setup();
         MPU6050_Init();
         bmp280_init();
     }
@@ -30,6 +32,8 @@ public:
     }
     void StartHandling()
     {
+        // main2();
+        connection.loop();
         MPU6050_YawPitchRoll(&GyroZYaw, &GyroYPitch, &GyroXRoll, &GyroAccelTemperature);
         Run_BMP280(1002.58, &EnviromentTemperature, &Pressure, &params);
 

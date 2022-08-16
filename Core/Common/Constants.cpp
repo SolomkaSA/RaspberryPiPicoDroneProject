@@ -14,3 +14,6 @@
 #define SDCARD_SPIx_TX_MOSI_PIN 15
 #define SDCARD_SPIx_RX_MISO_PIN 16
 #define SDCARD_SPIx_CSn_PIN 17
+
+// #define CE_PIN 8
+// #define CSN_PIN 9
