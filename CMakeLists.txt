@@ -35,8 +35,8 @@ pico_enable_stdio_uart(${PROJECT_NAME} 0)
 
 target_compile_definitions(${CMAKE_PROJECT_NAME}
     PUBLIC PICO_DEFAULT_SPI=0 # can only be 0 or 1 (as in `spi0` or `spi1`)
-    PUBLIC PICO_DEFAULT_SPI_SCK_PIN=2 # depends on which SPI bus (0 or 1) is being used
-    PUBLIC PICO_DEFAULT_SPI_TX_PIN=3  # depends on which SPI bus (0 or 1) is being used
+    PUBLIC PICO_DEFAULT_SPI_SCK_PIN=6 # depends on which SPI bus (0 or 1) is being used
+    PUBLIC PICO_DEFAULT_SPI_TX_PIN=7  # depends on which SPI bus (0 or 1) is being used
     PUBLIC PICO_DEFAULT_SPI_RX_PIN=4  # depends on which SPI bus (0 or 1) is being used
     PUBLIC PICO_BUILD
 )

@@ -5,13 +5,13 @@
 #include "RF24/RF24.h"
 // #include "RF24/RF24.cpp"
 #include "RF24/examples_pico/defaultPins.h" // board presumptive default pin numbers for CE_PIN and CSN_PIN
-// #include "RF24/utility/RPi/includes.h"
+// // #include "RF24/utility/RPi/includes.h"
 
 class CommunicationWIFI
 {
 public:
-    RF24 radio;
-
+    RF24 radio = RF24(17, 18); // 17 18 Pico
+    // RF24 radio = RF24(18, 17); // 18 17 for Pico W
     // Used to control whether this node is sending or receiving
     bool role = false; // true = TX role, false = RX role
 
@@ -19,6 +19,8 @@ public:
     // a single float number that will be incremented
     // on every successful transmission
     float payload = 0.0;
+
+    char *messages;
     void Message(char *msg)
     {
         // nRF.be
@@ -59,8 +61,9 @@ public:
         // Set the PA Level low to try preventing power supply related problems
         // because these examples are likely run with nodes in close proximity to
         // each other.
-        radio.setPALevel(RF24_PA_LOW); // RF24_PA_MAX is default.
-
+        radio.setPALevel(RF24_PA_MAX); // RF24_PA_MAX is default.
+        radio.setDataRate(RF24_2MBPS);
+        radio.setChannel(115);
         // save on transmission time by setting the radio to only transmit the
         // number of bytes we need to transmit a float
         radio.setPayloadSize(sizeof(payload)); // float datatype occupies 4 bytes
@@ -83,7 +86,7 @@ public:
 
         // For debugging info
         // radio.printDetails();       // (smaller) function that prints raw register values
-        // radio.printPrettyDetails(); // (larger) function that prints human readable data
+        radio.printPrettyDetails(); // (larger) function that prints human readable data
 
         // role variable is hardcoded to RX behavior, inform the user of this
         printf("*** PRESS 'T' to begin transmitting to the other node\n");
@@ -96,18 +99,20 @@ public:
         if (role)
         {
             // This device is a TX node
-
+            messages = "Message new %s";
             uint64_t start_timer = to_us_since_boot(get_absolute_time()); // start the timer
-            bool report = radio.write(&payload, sizeof(payload));         // transmit & save the report
-            uint64_t end_timer = to_us_since_boot(get_absolute_time());   // end the timer
+            // bool report = radio.write(&payload, sizeof(payload));         // transmit & save the report
+            bool report = radio.write(&messages, sizeof(messages));
+            uint64_t end_timer = to_us_since_boot(get_absolute_time()); // end the timer
 
             if (report)
             {
                 // payload was delivered; print the payload sent & the timer result
-                printf("Transmission successful! Time to transmit = %llu us. Sent: %f\n", end_timer - start_timer, payload);
+                printf("Transmission successful! Time to transmit = %llu us. Sent: %f\n", end_timer - start_timer, messages);
 
                 // increment float payload
                 payload += 0.01;
+                // messages + payload;
             }
             else
             {
@@ -126,10 +131,11 @@ public:
             if (radio.available(&pipe))
             {                                           // is there a payload? get the pipe number that recieved it
                 uint8_t bytes = radio.getPayloadSize(); // get the size of the payload
-                radio.read(&payload, bytes);            // fetch payload from FIFO
-
+                                                        // radio.read(&payload, bytes);            // fetch payload from FIFO
+                radio.read(&messages, bytes);
                 // print the size of the payload, the pipe number, payload's value
-                printf("Received %d bytes on pipe %d: %f\n", bytes, pipe, payload);
+                // printf("Received %d bytes on pipe %d: %f\n", bytes, pipe, payload);
+                printf("Received %d bytes on pipe %d: %f\n", bytes, pipe, messages);
             }
         } // role
 
@@ -158,7 +164,14 @@ public:
             {
                 // reset to bootloader
                 radio.powerDown();
-                reset_usb_boot(0, 0);
+                printf("*** powerDown\n");
+                // reset_usb_boot(0, 0);
+            }
+            else if (input == 'u' || input == 'U')
+            {
+                radio.powerUp();
+                printf("*** powerUp\n");
+                // reset_usb_boot(0, 0);
             }
         }
     } // loop
@@ -176,16 +189,103 @@ public:
     }
 };
 
-// RF24 radio(7, 8); // pin numbers connected to the radio's CE and CSN pins (respectively)
+// instantiate an object for the nRF24L01 transceiver
+// RF24 radio(17, 14);
+
+// // Channel info
+// const uint8_t num_channels = 126;
+// uint8_t values[num_channels];
+
+// const int num_reps = 100;
+// int reset_array = 0;
 
 // int main2()
 // {
-//     // again please review the GPIO pins' "Function Select Table" in the Pico SDK docs
-//     spi.begin(spi0, 2, 3, 4); // spi0 or spi1 bus, SCK, TX, RX
-
-//     if (!radio.begin(&spi))
+//     // wait here until the CDC ACM (serial port emulation) is connected
+//     while (!tud_cdc_connected())
 //     {
-//         printf("Radio hardware is not responding!\n");
+//         sleep_ms(10);
 //     }
-//     // continue with program as normal ...
+
+//     // initialize the transceiver on the SPI bus
+//     while (!radio.begin())
+//     {
+//         printf("radio hardware is not responding!!\n");
+//     }
+
+//     // print example's name
+//     printf("RF24/examples_pico/scanner\n");
+
+//     radio.setAutoAck(false);
+
+//     // Get into standby mode
+//     radio.startListening();
+//     radio.stopListening();
+
+//     // radio.printDetails();
+
+//     // Print out header, high then low digit
+//     int i = 0;
+
+//     while (i < num_channels)
+//     {
+//         printf("%x", i >> 4);
+//         ++i;
+//     }
+//     printf("\n");
+
+//     i = 0;
+//     while (i < num_channels)
+//     {
+//         printf("%x", i & 0xf);
+//         ++i;
+//     }
+//     printf("\n");
+
+//     // forever loop
+//     while (1)
+//     {
+//         // Clear measurement values
+//         memset(values, 0, sizeof(values));
+
+//         // Scan all channels num_reps times
+//         int rep_counter = num_reps;
+//         while (rep_counter--)
+//         {
+
+//             int i = num_channels;
+//             while (i--)
+//             {
+
+//                 // Select this channel
+//                 radio.setChannel(i);
+
+//                 // Listen for a little
+//                 radio.startListening();
+//                 sleep_us(128);
+//                 radio.stopListening();
+
+//                 // Did we get a carrier?
+//                 if (radio.testCarrier())
+//                 {
+//                     ++values[i];
+//                 }
+//             }
+//         }
+
+//         // Print out channel measurements, clamped to a single hex digit
+//         i = 0;
+//         while (i < num_channels)
+//         {
+//             if (values[i])
+//                 printf("%x", rf24_min(0xf, (values[i] & 0xf)));
+//             else
+//                 printf("-");
+
+//             ++i;
+//         }
+//         printf("\n");
+//     }
+
+//     return 0;
 // }
