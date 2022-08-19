@@ -16,15 +16,15 @@ public:
     SDCard sdCard;
     void Calibrate()
     {
-        // bmp280_get_calib_params(&params);
+        bmp280_get_calib_params(&params);
     }
     void Reset()
     {
     }
     void Init()
     {
-        // MPU6050_Init();
-        // bmp280_init();
+        MPU6050_Init();
+        bmp280_init();
         connection.setup();
     }
     void LoadData()
@@ -33,14 +33,14 @@ public:
     void StartHandling()
     {
         connection.loop();
-        // MPU6050_YawPitchRoll(&GyroZYaw, &GyroYPitch, &GyroXRoll, &GyroAccelTemperature);
-        // Run_BMP280(1002.58, &EnviromentTemperature, &Pressure, &params);
+        MPU6050_YawPitchRoll(&GyroZYaw, &GyroYPitch, &GyroXRoll, &GyroAccelTemperature);
+        Run_BMP280(1002.58, &EnviromentTemperature, &Pressure, &params);
 
-        // char array[5000];
-        // sprintf(array, "GyroZYaw %.3f, &GyroYPitch %.3f, GyroXRoll %.3f, &GyroAccelTemperature %.3f, &EnviromentTemperature %.3f, &Pressure %.3f \r\n", GyroZYaw, GyroYPitch, GyroXRoll, GyroAccelTemperature, EnviromentTemperature, Pressure);
-        // printf(array);
+        char array[5000];
+        sprintf(array, "GyroZYaw %.3f, &GyroYPitch %.3f, GyroXRoll %.3f, &GyroAccelTemperature %.3f, &EnviromentTemperature %.3f, &Pressure %.3f \r\n", GyroZYaw, GyroYPitch, GyroXRoll, GyroAccelTemperature, EnviromentTemperature, Pressure);
+        printf(array);
 
-        // sdCard.WriteIntoFile("test.txt", array);
+        sdCard.WriteIntoFile("test.txt", array);
     }
     void StopHandling(bool force = false)
     {

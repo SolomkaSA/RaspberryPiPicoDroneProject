@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.12)
  
 # Include build functions from Pico SDK
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
-include(${CMAKE_CURRENT_LIST_DIR}/Core/DataAndVideo/RF24/CMakeLists.txt)
+include(${CMAKE_CURRENT_LIST_DIR}/RF24/CMakeLists.txt)
 # Set name of project (as PROJECT_NAME) and C/C++ standards
 project(FlightController C CXX ASM)
 set(CMAKE_C_STANDARD 11)
@@ -16,7 +16,7 @@ pico_sdk_init()
 add_executable(${PROJECT_NAME} 
     main.cpp
 )
-add_subdirectory(Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
 # add_subdirectory(Core/DataAndVideo/RF24 NRF24Build)
 # Create map/bin/hex/uf2 files
 pico_add_extra_outputs(${PROJECT_NAME})
