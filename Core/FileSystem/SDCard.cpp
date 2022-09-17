@@ -66,30 +66,26 @@ public:
 
         int ret;
         // Initialize SD card
-        if (!sd_init_driver())
+        while (!sd_init_driver())
         {
             printf("ERROR: Could not initialize SD card\r\n");
-            while (true)
-                ;
         }
 
         // Mount drive
         fr = f_mount(&fs, "0:", 1);
-        if (fr != FR_OK)
+        while (fr != FR_OK)
         {
             printf("ERROR: Could not mount filesystem (%d)\r\n", fr);
-            while (true)
-                ;
+            fr = f_mount(&fs, "0:", 1);
         }
 
         // Open file for writing ()
         fr = f_open(&fil, filename, FA_OPEN_APPEND | FA_WRITE);
         // fr = f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
-        if (fr != FR_OK)
+        while (fr != FR_OK)
         {
             printf("ERROR: Could not open file (%d)\r\n", fr);
-            while (true)
-                ;
+            fr = f_open(&fil, filename, FA_OPEN_APPEND | FA_WRITE);
         }
 
         // Write something to file
@@ -98,8 +94,6 @@ public:
         {
             printf("ERROR: Could not write to file (%d)\r\n", ret);
             f_close(&fil);
-            while (true)
-                ;
         }
 
         // Close file
@@ -107,8 +101,6 @@ public:
         if (fr != FR_OK)
         {
             printf("ERROR: Could not close file (%d)\r\n", fr);
-            while (true)
-                ;
         }
     }
 
@@ -120,8 +112,6 @@ public:
         if (fr != FR_OK)
         {
             printf("ERROR: Could not open file (%d)\r\n", fr);
-            while (true)
-                ;
         }
 
         // Print every line in file over serial
@@ -138,8 +128,6 @@ public:
         if (fr != FR_OK)
         {
             printf("ERROR: Could not close file (%d)\r\n", fr);
-            while (true)
-                ;
         }
     }
 

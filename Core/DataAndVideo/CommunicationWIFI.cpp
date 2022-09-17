@@ -10,8 +10,9 @@
 class CommunicationWIFI
 {
 public:
-    RF24 radio = RF24(17, 18); // 17 18 Pico
+    // RF24 radio = RF24(17, 18); // 17 18 Pico
     // RF24 radio = RF24(18, 17); // 18 17 for Pico W
+    RF24 radio = RF24(9, 14, 6250 * 1000); // 9, 14 for Pico W PRODUCTION
     // Used to control whether this node is sending or receiving
     bool role = false; // true = TX role, false = RX role
 
