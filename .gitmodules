@@ -1,12 +1,6 @@
 [submodule "RF24"]
 	path = RF24
 	url = https://github.com/nRF24/RF24.git
-# [submodule "Core/DataAndVideo/RF24"]
-# 	path = Core/DataAndVideo/RF24
-# 	url = https://github.com/nRF24/RF24.git
-# [submodule "Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico"]
-# 	path = Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico
-# 	url = https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico.git
 [submodule "no-OS-FatFS-SD-SPI-RPi-Pico"]
 	path = no-OS-FatFS-SD-SPI-RPi-Pico
 	url = https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico.git
