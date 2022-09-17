@@ -2,7 +2,7 @@
 //
 #include "my_debug.h"
 //
-#include "hw_config.h"
+#include "../sd_driver/hw_config.h"
 //
 #include "ff.h" /* Obtains integer types */
 //

@@ -2,9 +2,9 @@
 #include "pico/stdlib.h" // printf(), sleep_ms(), getchar_timeout_us(), to_us_since_boot(), get_absolute_time()
 #include "pico/bootrom.h"
 #include <tusb.h> // tud_cdc_connected()
-#include "RF24/RF24.h"
-// #include "RF24/RF24.cpp"
-#include "RF24/examples_pico/defaultPins.h" // board presumptive default pin numbers for CE_PIN and CSN_PIN
+// #include "../RF24/RF24.cpp"
+#include "../RF24/RF24.h"
+#include "../RF24/examples_pico/defaultPins.h" // board presumptive default pin numbers for CE_PIN and CSN_PIN
 // // #include "RF24/utility/RPi/includes.h"
 
 class CommunicationWIFI

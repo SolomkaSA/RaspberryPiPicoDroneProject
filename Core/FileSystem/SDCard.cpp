@@ -5,7 +5,8 @@
 #include "sd_card.h"
 #include "ff.h"
 #include "rtc.h"
-#include "hw_config.h"
+#include "../sd_driver/hw_config.h"
+// #include "hw_config.c"
 #include "diskio.h" /* Declarations of disk functions */
 
 static spi_t *p_spi;

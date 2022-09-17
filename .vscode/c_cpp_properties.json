@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/Core",
-                "${workspaceFolder}/Core/FileSystem/SDPicoGitProject/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver"
+                "${workspaceFolder}/Core/FileSystem",
+                "${workspaceFolder}/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver"
             ],
             "defines": [
                 "_DEBUG",
