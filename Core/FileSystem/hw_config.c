@@ -15,10 +15,10 @@ void spi0_dma_isr();
 // selects.
 static spi_t spis[] = { // One for each SPI.
     {
-        .hw_inst = spi1, // SPI component
-        .miso_gpio = 12, // GPIO number (not pin number)
-        .mosi_gpio = 11,
-        .sck_gpio = 10,
+        .hw_inst = spi1,                      // SPI component
+        .miso_gpio = PICO_DEFAULT_SPI_RX_PIN, // 12, // GPIO number (not pin number)
+        .mosi_gpio = PICO_DEFAULT_SPI_TX_PIN, // 11,
+        .sck_gpio = PICO_DEFAULT_SPI_SCK_PIN, // 10,
         /* The choice of SD card matters! SanDisk runs at the highest speed. PNY
            can only mangage 5 MHz. Those are all I've tried. */
         //.baud_rate = 1000 * 1000,

@@ -12,5 +12,6 @@
         "ranges": "cpp",
         "my_debug.h": "c",
         "sd_spi.h": "c"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
