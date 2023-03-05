@@ -4,3 +4,6 @@
 [submodule "no-OS-FatFS-SD-SPI-RPi-Pico"]
 	path = no-OS-FatFS-SD-SPI-RPi-Pico
 	url = https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico.git
+[submodule "arduino-pico"]
+	path = arduino-pico
+	url = https://github.com/earlephilhower/arduino-pico.git
