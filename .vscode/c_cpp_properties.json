@@ -6,7 +6,10 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/Core",
                 "${workspaceFolder}/Core/FileSystem",
-                "${workspaceFolder}/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver"
+                "${workspaceFolder}/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver",
+                "${workspaceFolder}/arduino-pico/libraries/HTTPClient/src",
+                "${workspaceFolder}/arduino-pico/libraries/WiFi/src",
+                "${workspaceFolder}/arduino-pico/cores/"
             ],
             "defines": [
                 "_DEBUG",

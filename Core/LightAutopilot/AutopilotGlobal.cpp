@@ -1,3 +1,4 @@
-class AutopilotGlobal
+class AutopilotGlobal : AutopilotFollows
 {
+    
 };
