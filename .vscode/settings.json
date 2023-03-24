@@ -11,6 +11,7 @@
         "initializer_list": "cpp",
         "ranges": "cpp",
         "my_debug.h": "c",
-        "sd_spi.h": "c"
+        "sd_spi.h": "c",
+        "sstream": "cpp"
     }
 }

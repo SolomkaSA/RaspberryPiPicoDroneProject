@@ -5,7 +5,7 @@
 int main()
 {
     stdio_init_all();
-    const uint led_pin = 25;
+    const uint led_pin = PICO_DEFAULT_LED_PIN;
 
     // Initialize LED pin
     gpio_init(led_pin);

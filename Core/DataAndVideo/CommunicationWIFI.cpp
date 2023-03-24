@@ -12,7 +12,7 @@ class CommunicationWIFI
 public:
     // RF24 radio = RF24(17, 18); // 17 18 Pico
     // RF24 radio = RF24(18, 17); // 18 17 for Pico W
-    RF24 radio = RF24(9, 14, 6250 * 1000); // 9, 14 for Pico W PRODUCTION
+    RF24 radio = RF24(9, 14, 10000000); // 9, 14 for Pico W PRODUCTION 10000000
     // Used to control whether this node is sending or receiving
     bool role = false; // true = TX role, false = RX role
 
@@ -64,7 +64,7 @@ public:
         // each other.
         radio.setPALevel(RF24_PA_MAX); // RF24_PA_MAX is default.
         radio.setDataRate(RF24_2MBPS);
-        radio.setChannel(115);
+        radio.setChannel(75);
         // save on transmission time by setting the radio to only transmit the
         // number of bytes we need to transmit a float
         radio.setPayloadSize(sizeof(payload)); // float datatype occupies 4 bytes
@@ -122,7 +122,7 @@ public:
             }
 
             // to make this example readable in the serial terminal
-            sleep_ms(1000); // slow transmissions down by 1 second
+            // sleep_ms(1000); // slow transmissions down by 1 second
         }
         else
         {
@@ -139,8 +139,12 @@ public:
                 printf("Received %d bytes on pipe %d: %f\n", bytes, pipe, messages);
             }
         } // role
-
-        char input = getchar_timeout_us(0); // get char from buffer for user input
+        char str[] = {NULL};
+        get_block(str);
+        char input = str[0];
+        char c1 = str[2];
+        char c2 = str[3];
+        char c3 = str[4];
         if (input != PICO_ERROR_TIMEOUT)
         {
             // change the role via the serial terminal
@@ -174,9 +178,64 @@ public:
                 printf("*** powerUp\n");
                 // reset_usb_boot(0, 0);
             }
+            else if (input == 'c')
+            {
+                char ch[] = {NULL};
+                ch[0] = str[2];
+                ch[1] = str[3];
+                ch[3] = str[4];
+                int channel = charArrayToInt(ch);
+                radio.setChannel(channel);
+                radio.powerDown();
+                printf("*** powerDown\n");
+                printf("Changed channel:%i %i %i %i %i %i %i %i", channel, radio.getChannel(), str[2], str[3], str[4], c1, c2, c3);
+                radio.powerUp();
+                printf("*** powerUp\n");
+            }
         }
     } // loop
+    uint16_t get_block(char *buffer)
+    {
+        uint16_t buffer_index = 0;
+        while (true)
+        {
+            char c = getchar_timeout_us(0);
+            if (c != PICO_ERROR_TIMEOUT && buffer_index < BUFFER_LENGTH)
+            {
+                buffer[buffer_index++] = c;
+            }
+            else
+            {
+                break;
+            }
+        }
+        return buffer_index;
+    }
+    int charArrayToInt(char *arr)
+    {
+        int i, value, r, flag;
 
+        flag = 1;
+        i = value = 0;
+
+        for (i = 0; i < strlen(arr); ++i)
+        {
+
+            // if arr contain negative number
+            if (i == 0 && arr[i] == '-')
+            {
+                flag = -1;
+                continue;
+            }
+
+            r = arr[i] - '0';
+            value = value * 10 + r;
+        }
+
+        value = value * flag;
+
+        return value;
+    }
     int main()
     {
         while (!setup())
