@@ -1,5 +1,6 @@
 #include "ChipRP2040/HandlerPicoOne.cpp"
 #include "Sensors/HandlerSensorsData.cpp"
+#include "ManualControl/RemoteControlStation.cpp"
 #include "FileSystem/SDCard.cpp"
 
 class FlightController
@@ -8,9 +9,13 @@ private:
     HandlerPicoOne Board;
     HandlerSensorsData Sensors;
     SDCard sdCard;
+    RemoteControlStation RCStation;
 
 public:
-    bool RunAutoPilot, ForeAttack, SearchingTargets, InFlight;
+    bool RunAutoPilot,
+        ForeAttack,
+        SearchingTargets,
+        InFlight;
     // int16_t[] SelectedAutopilot;
     int16_t Pitch, Yaw, Roll;
     int16_t CurrentHight, MinimumHight, MaximumHight, AvgHight;
@@ -24,7 +29,7 @@ public:
         Sensors.Reset();
         printf("Start Init!\r\n");
         Sensors.Init();
-        printf("Start Calibrate!\r\n");
+        autoFollows.printf("Start Calibrate!\r\n");
         Sensors.Calibrate();
         printf("END Init!\r\n");
     }

@@ -16,6 +16,7 @@ public:
     {
         engineInfo.maxEngineSpeed = maxEngineSpeed;
     }
+
     EngineInfo SetEngineSpeed(uint slice_num, uint chan, int speedUpEnginePercent)
     {
         engineInfo.CurrentEngineSpeed = map(speedUpEnginePercent, 0, 1023, 0, 180);
@@ -23,7 +24,7 @@ public:
         {
             engineInfo.CurrentEngineSpeed = 0;
         }
-        pwm_set_freq_duty(slice_num, chan, 50, 75);
+        pwm_set_freq_duty(slice_num, chan, 50, engineInfo.CurrentEngineSpeed);
         pwm_set_enabled(slice_num, true);
         return engineInfo;
     }

@@ -26,6 +26,13 @@ public:
     void CalculateCurrentPosition()
     {
     }
+
+    void ThrottleUp()
+    {
+    }
+    void ThrottleDown()
+    {
+    }
     void Forward()
     {
     }
