@@ -18,7 +18,7 @@ pico_sdk_init()
 
 # Tell CMake where to find the executable source file
 add_executable(${PROJECT_NAME} 
-    # Core/FileSystem/hw_config.c
+    Core/FileSystem/hw_config.c
     main.cpp
 )
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build) 
@@ -29,8 +29,7 @@ add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI
 pico_add_extra_outputs(${PROJECT_NAME})
 
 # Link to pico_stdlib (gpio, time, etc. functions)
-target_link_libraries(${PROJECT_NAME}
-    pico_picoh    
+target_link_libraries(${PROJECT_NAME}        
     pico_stdlib
     pico_cyw43_arch_none
     hardware_spi

@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <pico/stdlib.h>
+#include "ff.h"
 #include "pico/cyw43_arch.h"
 #include "hardware/pwm.h"
 // #include "../core/Common/Constant.cpp"
-#include "../core/FlightController.cpp"
+#include "../Core/FlightController.cpp"
 #include "../core/FileSystem/SDCard.cpp"
 int main()
 {
@@ -37,12 +38,13 @@ int main()
     while (true)
     {
         // Blink LED
-        // printf("Blinking!\r\n");
+        printf("Blinking!\r\n");
         // gpio_put(led_pin, true);
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
-        flc.Run();
-
+        // flc.Run();
+        sleep_ms(250);
         // gpio_put(led_pin, false);
-        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
+        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);        
+        sleep_ms(250);
     }
 }
