@@ -1,16 +1,13 @@
 # Set minimum required version of CMake
-cmake_minimum_required(VERSION 3.12)
- 
+cmake_minimum_required(VERSION 3.13)
 # Include build functions from Pico SDK
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/RF24/CMakeLists.txt)
-
-include_directories(
-    "${CMAKE_CURRENT_LIST_DIR}/arduino-pico/"
-    ...
-)
+ 
+set(PICO_BOARD pico_w)
+set(PROJECT_NAME FlightController)
 # Set name of project (as PROJECT_NAME) and C/C++ standards
-project(FlightController C CXX ASM)
+project(${PROJECT_NAME} C CXX ASM)
 
 set(PICO_CYW43_SUPPORTED 1)
 set(CMAKE_C_STANDARD 11)
@@ -32,7 +29,8 @@ add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI
 pico_add_extra_outputs(${PROJECT_NAME})
 
 # Link to pico_stdlib (gpio, time, etc. functions)
-target_link_libraries(${PROJECT_NAME} 
+target_link_libraries(${PROJECT_NAME}
+    pico_picoh    
     pico_stdlib
     pico_cyw43_arch_none
     hardware_spi

@@ -15,5 +15,6 @@
 #define SDCARD_SPIx_RX_MISO_PIN 16
 #define SDCARD_SPIx_CSn_PIN 17
 
+#define PICO_DEFAULT_LED_PIN  25
 // #define CE_PIN 8
 // #define CSN_PIN 9

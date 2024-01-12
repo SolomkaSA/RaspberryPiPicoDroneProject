@@ -16,8 +16,11 @@ public:
 #define MOTOR_RIGHT_DOWN_PIN 10
 */
 
-    Engine engine;
+    Engine engine ;
+RemoteControlStation()
+{
 
+}
     void RunAutopilot()
     {
     }

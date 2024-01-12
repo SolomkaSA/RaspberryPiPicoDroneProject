@@ -20,7 +20,9 @@ public:
     int16_t Pitch, Yaw, Roll;
     int16_t CurrentHight, MinimumHight, MaximumHight, AvgHight;
     int16_t Motor1, Motor2, Motor3, Motor4;
-
+    FlightController()
+    {
+    }
     void Init()
     {
         printf("Start InitBoard!\r\n");
@@ -29,7 +31,7 @@ public:
         Sensors.Reset();
         printf("Start Init!\r\n");
         Sensors.Init();
-        autoFollows.printf("Start Calibrate!\r\n");
+        printf("Start Calibrate!\r\n");
         Sensors.Calibrate();
         printf("END Init!\r\n");
     }

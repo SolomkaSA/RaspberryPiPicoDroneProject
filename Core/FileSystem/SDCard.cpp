@@ -10,7 +10,7 @@
 #include "diskio.h" /* Declarations of disk functions */
 
 static spi_t *p_spi;
-void spi0_dma_isr() { spi_irq_handler(p_spi); };
+// void spi0_dma_isr() { spi_irq_handler(p_spi); };
 void add_spi(spi_t *const spi);
 void add_sd_card(sd_card_t *const sd_card);
 
@@ -39,7 +39,7 @@ public:
                                          // p_spi->baud_rate = 25 * 1000 * 1000; // Actual frequency: 20833333. Has
                                          // worked for me with SanDisk.
 
-        p_spi->dma_isr = spi0_dma_isr;
+        // p_spi->dma_isr = spi0_dma_isr;
         p_spi->initialized = false; // initialized flag
         add_spi(p_spi);
 

@@ -12,6 +12,10 @@ class Engine
 {
 public:
     EngineInfo engineInfo;
+       Engine()
+    {
+        engineInfo.maxEngineSpeed = 100000;
+    }
     Engine(int maxEngineSpeed, bool runWithChek = true)
     {
         engineInfo.maxEngineSpeed = maxEngineSpeed;
@@ -19,7 +23,7 @@ public:
 
     EngineInfo SetEngineSpeed(uint slice_num, uint chan, int speedUpEnginePercent)
     {
-        engineInfo.CurrentEngineSpeed = map(speedUpEnginePercent, 0, 1023, 0, 180);
+        engineInfo.CurrentEngineSpeed = mapOne(speedUpEnginePercent, 0, 1023, 0, 180);
         if (speedUpEnginePercent == 0)
         {
             engineInfo.CurrentEngineSpeed = 0;
