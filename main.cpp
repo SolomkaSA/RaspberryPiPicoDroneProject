@@ -41,7 +41,7 @@ int main()
         printf("Blinking!\r\n");
         // gpio_put(led_pin, true);
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
-        // flc.Run();
+        flc.Run();
         sleep_ms(250);
         // gpio_put(led_pin, false);
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);        

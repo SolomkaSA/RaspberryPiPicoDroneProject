@@ -1,5 +1,6 @@
 #include "Engine.cpp"
 #include "../Common/Constants.cpp"
+#include "hardware/pwm.h"
 
 class RemoteControlStation
 {
@@ -55,12 +56,11 @@ RemoteControlStation()
         uint slice_num_motor_2 = pwm_gpio_to_slice_num(MOTOR_LEFT_DOWN_PIN);
         uint chan_motor_2 = pwm_gpio_to_channel(MOTOR_LEFT_DOWN_PIN);
 
-        engine.SetEngineSpeed(slice_num_motor_1, chan_motor_1, 10);
+        engine.SetEngineSpeed(slice_num_motor_1, chan_motor_1, 70);
 
-        engine.SetEngineSpeed(slice_num_motor_2, chan_motor_2, 10);
+        engine.SetEngineSpeed(slice_num_motor_2, chan_motor_2, 70);
 
         sleep_ms(30);
-        Back();
     }
 
     void Back()
@@ -76,7 +76,6 @@ RemoteControlStation()
         engine.SetEngineSpeed(slice_num_motor_2, chan_motor_2, 10);
 
         sleep_ms(30);
-        Forward();
     }
     void Left()
     {

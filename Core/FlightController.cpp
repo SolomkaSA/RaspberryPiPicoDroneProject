@@ -38,5 +38,6 @@ public:
     void Run()
     {
         Sensors.StartHandling();
+         RCStation.Forward();
     }
 };
