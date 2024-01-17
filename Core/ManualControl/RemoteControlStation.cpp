@@ -13,7 +13,11 @@ public:
            uint slice_num_motor_1_MOTOR_LEFT_UP_PIN, 
                 chan_motor_1_MOTOR_LEFT_UP_PIN ,
                 slice_num_motor_2_MOTOR_LEFT_DOWN_PIN,
-                chan_motor_2_MOTOR_LEFT_DOWN_PIN;
+                chan_motor_2_MOTOR_LEFT_DOWN_PIN,
+                slice_num_motor_3_MOTOR_RIGHT_UP_PIN,
+                chan_motor_3_MOTOR_RIGHT_UP_PIN,
+                slice_num_motor_4_MOTOR_RIGHT_DOWN_PIN,
+                chan_motor_4_MOTOR_RIGHT_DOWN_PIN;
     /*
     #define MOTOR_LEFT_UP_PIN 27
 #define MOTOR_LEFT_DOWN_PIN 26
@@ -28,8 +32,14 @@ RemoteControlStation()
           slice_num_motor_1_MOTOR_LEFT_UP_PIN = pwm_gpio_to_slice_num(MOTOR_LEFT_UP_PIN);
           chan_motor_1_MOTOR_LEFT_UP_PIN = pwm_gpio_to_channel(MOTOR_LEFT_UP_PIN);
 
-        //   slice_num_motor_2_MOTOR_LEFT_DOWN_PIN = pwm_gpio_to_slice_num(MOTOR_LEFT_DOWN_PIN);
-        //   chan_motor_2_MOTOR_LEFT_DOWN_PIN = pwm_gpio_to_channel(MOTOR_LEFT_DOWN_PIN);        
+          slice_num_motor_2_MOTOR_LEFT_DOWN_PIN = pwm_gpio_to_slice_num(MOTOR_LEFT_DOWN_PIN);
+          chan_motor_2_MOTOR_LEFT_DOWN_PIN = pwm_gpio_to_channel(MOTOR_LEFT_DOWN_PIN);        
+
+          slice_num_motor_3_MOTOR_RIGHT_UP_PIN = pwm_gpio_to_slice_num(MOTOR_RIGHT_UP_PIN);
+          chan_motor_3_MOTOR_RIGHT_UP_PIN = pwm_gpio_to_channel(MOTOR_RIGHT_UP_PIN);
+
+          slice_num_motor_4_MOTOR_RIGHT_DOWN_PIN = pwm_gpio_to_slice_num(MOTOR_RIGHT_DOWN_PIN);
+          chan_motor_4_MOTOR_RIGHT_DOWN_PIN = pwm_gpio_to_channel(MOTOR_RIGHT_DOWN_PIN);
 
 }
     void RunAutopilot()
@@ -43,7 +53,10 @@ RemoteControlStation()
     }
     void SetStartPosition()
     {  
-        engine.SetEngineSpeed(slice_num_motor_1_MOTOR_LEFT_UP_PIN, chan_motor_1_MOTOR_LEFT_UP_PIN, 3);  
+        engine.SetEngineSpeed(slice_num_motor_1_MOTOR_LEFT_UP_PIN, chan_motor_1_MOTOR_LEFT_UP_PIN, 3);
+        engine.SetEngineSpeed(slice_num_motor_2_MOTOR_LEFT_DOWN_PIN, chan_motor_2_MOTOR_LEFT_DOWN_PIN, 3);  
+        engine.SetEngineSpeed(slice_num_motor_3_MOTOR_RIGHT_UP_PIN, chan_motor_3_MOTOR_RIGHT_UP_PIN, 3);
+        engine.SetEngineSpeed(slice_num_motor_4_MOTOR_RIGHT_DOWN_PIN, chan_motor_4_MOTOR_RIGHT_DOWN_PIN, 3);  
       
     }
     void CalculateCurrentPosition()
@@ -57,16 +70,26 @@ RemoteControlStation()
     }
 
     void StartEngines()
-    {
-        engine.EngineSpeed(MOTOR_LEFT_UP_PIN,1);
+    {   
+        engine.EngineSpeed(MOTOR_LEFT_UP_PIN,1);  
+        engine.EngineSpeed(MOTOR_LEFT_DOWN_PIN,1);
+        engine.EngineSpeed(MOTOR_RIGHT_UP_PIN,1);  
+        engine.EngineSpeed(MOTOR_RIGHT_DOWN_PIN,1);
     }
       void LoadEngine(int l)
     {
-        engine.EngineSpeed(MOTOR_LEFT_UP_PIN,1*l);
+        int loadCount = 1*l;
+        engine.EngineSpeed(MOTOR_LEFT_UP_PIN,loadCount); 
+        engine.EngineSpeed(MOTOR_LEFT_DOWN_PIN,loadCount);
+        engine.EngineSpeed(MOTOR_RIGHT_UP_PIN,loadCount);  
+        engine.EngineSpeed(MOTOR_RIGHT_DOWN_PIN,loadCount);
     }
-      void StopEngines()
+    void StopEngines()
     {
-        engine.EngineSpeed(MOTOR_LEFT_UP_PIN,0);
+        engine.EngineSpeed(MOTOR_LEFT_UP_PIN,0);  
+        engine.EngineSpeed(MOTOR_LEFT_DOWN_PIN,0);
+        engine.EngineSpeed(MOTOR_RIGHT_UP_PIN,0);  
+        engine.EngineSpeed(MOTOR_RIGHT_DOWN_PIN,0);
     }
     
   void ThrottleDown()
@@ -79,46 +102,12 @@ RemoteControlStation()
     }
 
     void Back()
-    {
-        uint slice_num_motor_1 = pwm_gpio_to_slice_num(MOTOR_LEFT_UP_PIN);
-        uint chan_motor_1 = pwm_gpio_to_channel(MOTOR_LEFT_UP_PIN);
-
-        uint slice_num_motor_2 = pwm_gpio_to_slice_num(MOTOR_RIGHT_UP_PIN);
-        uint chan_motor_2 = pwm_gpio_to_channel(MOTOR_RIGHT_UP_PIN);
-
-        engine.SetEngineSpeed(slice_num_motor_1, chan_motor_1, 10);
-
-        engine.SetEngineSpeed(slice_num_motor_2, chan_motor_2, 10);
-
-        sleep_ms(30);
+    { 
     }
     void Left()
-    {
-        uint slice_num_motor_1 = pwm_gpio_to_slice_num(MOTOR_LEFT_UP_PIN);
-        uint chan_motor_1 = pwm_gpio_to_channel(MOTOR_LEFT_UP_PIN);
-
-        uint slice_num_motor_2 = pwm_gpio_to_slice_num(MOTOR_LEFT_DOWN_PIN);
-        uint chan_motor_2 = pwm_gpio_to_channel(MOTOR_LEFT_DOWN_PIN);
-
-        engine.SetEngineSpeed(slice_num_motor_1, chan_motor_1, 10);
-
-        engine.SetEngineSpeed(slice_num_motor_2, chan_motor_2, 10);
-        sleep_ms(30);
-        Right();
+    {  
     }
     void Right()
-    {
-        uint slice_num_motor_1 = pwm_gpio_to_slice_num(MOTOR_RIGHT_UP_PIN);
-        uint chan_motor_1 = pwm_gpio_to_channel(MOTOR_RIGHT_UP_PIN);
-
-        uint slice_num_motor_2 = pwm_gpio_to_slice_num(MOTOR_RIGHT_DOWN_PIN);
-        uint chan_motor_2 = pwm_gpio_to_channel(MOTOR_RIGHT_DOWN_PIN);
-
-        engine.SetEngineSpeed(slice_num_motor_1, chan_motor_1, 10);
-
-        engine.SetEngineSpeed(slice_num_motor_2, chan_motor_2, 10);
-
-        sleep_ms(30);
-        Left();
+    { 
     }
 };

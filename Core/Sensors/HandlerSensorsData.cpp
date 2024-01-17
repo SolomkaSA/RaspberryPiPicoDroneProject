@@ -13,7 +13,7 @@ public:
     float PWMMotor1, PWMMotor2, PWMMotor3, PWMMotor4;
     bool RCEnabled = false;
     struct bmp280_calib_param params;
-     CommunicationWIFI connection;
+    //  CommunicationWIFI connection;
     // SDCard sdCard;
     void Calibrate()
     {
@@ -26,17 +26,17 @@ public:
     {
         MPU6050_Init();
         bmp280_init();
-        RCEnabled = connection.setup();
+        // RCEnabled = connection.setup();
     }
     void LoadData()
     {
     }
     void StartHandling()
     {
-        if (RCEnabled)
-            connection.loop();
-        else
-            RCEnabled = connection.setup();
+        // if (RCEnabled)
+        //     connection.loop();
+        // else
+        //     RCEnabled = connection.setup();
         MPU6050_YawPitchRoll(&GyroZYaw, &GyroYPitch, &GyroXRoll, &GyroAccelTemperature);
         Run_BMP280(1002.58, &EnviromentTemperature, &Pressure, &params);
 
