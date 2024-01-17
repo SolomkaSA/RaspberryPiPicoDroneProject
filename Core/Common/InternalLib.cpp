@@ -13,7 +13,8 @@ uint32_t pwm_set_freq_duty(uint slice_num, uint chan, uint32_t f, int d)
     uint32_t wrap = clock * 16 / divider16 / f - 1;
     pwm_set_clkdiv_int_frac(slice_num, divider16 / 16,
                             divider16 & 0xF);
-    pwm_set_wrap(slice_num, wrap);
-    pwm_set_chan_level(slice_num, chan, wrap * d / 100);
+    pwm_set_wrap(slice_num, wrap);    
+    pwm_set_chan_level(slice_num, chan, wrap * d / 100); 
+    pwm_set_enabled(slice_num, true);
     return wrap;
 }

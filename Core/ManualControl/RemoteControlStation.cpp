@@ -10,6 +10,10 @@ public:
         CurrentHight, MinHight, MaxHight,
         DefaultCurrentLocationSeaLvl, DefaultCurrentLocationPressure,
         FullFlightDistanceInMeters, FullFlightTime;
+           uint slice_num_motor_1_MOTOR_LEFT_UP_PIN, 
+                chan_motor_1_MOTOR_LEFT_UP_PIN ,
+                slice_num_motor_2_MOTOR_LEFT_DOWN_PIN,
+                chan_motor_2_MOTOR_LEFT_DOWN_PIN;
     /*
     #define MOTOR_LEFT_UP_PIN 27
 #define MOTOR_LEFT_DOWN_PIN 26
@@ -20,6 +24,12 @@ public:
     Engine engine ;
 RemoteControlStation()
 {
+
+          slice_num_motor_1_MOTOR_LEFT_UP_PIN = pwm_gpio_to_slice_num(MOTOR_LEFT_UP_PIN);
+          chan_motor_1_MOTOR_LEFT_UP_PIN = pwm_gpio_to_channel(MOTOR_LEFT_UP_PIN);
+
+        //   slice_num_motor_2_MOTOR_LEFT_DOWN_PIN = pwm_gpio_to_slice_num(MOTOR_LEFT_DOWN_PIN);
+        //   chan_motor_2_MOTOR_LEFT_DOWN_PIN = pwm_gpio_to_channel(MOTOR_LEFT_DOWN_PIN);        
 
 }
     void RunAutopilot()
@@ -32,7 +42,9 @@ RemoteControlStation()
     {
     }
     void SetStartPosition()
-    {
+    {  
+        engine.SetEngineSpeed(slice_num_motor_1_MOTOR_LEFT_UP_PIN, chan_motor_1_MOTOR_LEFT_UP_PIN, 3);  
+      
     }
     void CalculateCurrentPosition()
     {
@@ -44,23 +56,26 @@ RemoteControlStation()
         Right();
     }
 
-    void ThrottleDown()
+    void StartEngines()
     {
+        engine.EngineSpeed(MOTOR_LEFT_UP_PIN,1);
     }
-
-    void Forward()
+      void LoadEngine(int l)
     {
-        uint slice_num_motor_1 = pwm_gpio_to_slice_num(MOTOR_LEFT_UP_PIN);
-        uint chan_motor_1 = pwm_gpio_to_channel(MOTOR_LEFT_UP_PIN);
-
-        uint slice_num_motor_2 = pwm_gpio_to_slice_num(MOTOR_LEFT_DOWN_PIN);
-        uint chan_motor_2 = pwm_gpio_to_channel(MOTOR_LEFT_DOWN_PIN);
-
-        engine.SetEngineSpeed(slice_num_motor_1, chan_motor_1, 70);
-
-        engine.SetEngineSpeed(slice_num_motor_2, chan_motor_2, 70);
-
-        sleep_ms(30);
+        engine.EngineSpeed(MOTOR_LEFT_UP_PIN,1*l);
+    }
+      void StopEngines()
+    {
+        engine.EngineSpeed(MOTOR_LEFT_UP_PIN,0);
+    }
+    
+  void ThrottleDown()
+    {
+         
+    }
+    void Forward()
+    { 
+       engine.EngineSpeed(MOTOR_LEFT_UP_PIN,6);
     }
 
     void Back()

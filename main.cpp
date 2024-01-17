@@ -8,7 +8,6 @@
 #include "../core/FileSystem/SDCard.cpp"
 int main()
 {
-
     stdio_init_all();
     if (cyw43_arch_init())
     {
@@ -22,17 +21,17 @@ int main()
     // Initialize LED pin
     // gpio_init(led_pin);
     // gpio_set_dir(led_pin, GPIO_OUT);
-    sleep_ms(5000);
+    sleep_ms(30);
     cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
-    sleep_ms(500);
+    sleep_ms(30);
     // gpio_put(led_pin, true);
     cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
     printf("Initialize FlightController!\r\n");
     FlightController flc;
     printf("Init Sensors!\r\n");
-    flc.Init();
     // gpio_put(led_pin, false);
-    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
+    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0); 
+    flc.Init();
     printf("Start Loop!\r\n");
     // Loop forever
     while (true)
@@ -42,9 +41,9 @@ int main()
         // gpio_put(led_pin, true);
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
         flc.Run();
-        sleep_ms(250);
+        sleep_ms(30);
         // gpio_put(led_pin, false);
-        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);        
-        sleep_ms(250);
+        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);           
+        sleep_ms(30);    
     }
 }
