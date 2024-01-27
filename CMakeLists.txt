@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.13)
 # Include build functions from Pico SDK
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/RF24/CMakeLists.txt)
- 
+
 set(PICO_BOARD pico_w)
 set(PROJECT_NAME FlightController)
 # Set name of project (as PROJECT_NAME) and C/C++ standards
@@ -34,6 +34,7 @@ target_link_libraries(${PROJECT_NAME}
     pico_cyw43_arch_none
     hardware_spi
     hardware_i2c
+    hardware_gpio
     hardware_pwm
     FatFs_SPI
     RF24
@@ -44,9 +45,9 @@ pico_enable_stdio_usb(${PROJECT_NAME} 1)
 pico_enable_stdio_uart(${PROJECT_NAME} 0)
 
 target_compile_definitions(${CMAKE_PROJECT_NAME}
-    PUBLIC PICO_DEFAULT_SPI=0 # can only be 0 or 1 (as in `spi0` or `spi1`)
+    PUBLIC PICO_DEFAULT_SPI=1 # can only be 0 or 1 (as in `spi0` or `spi1`)
     PUBLIC PICO_DEFAULT_SPI_SCK_PIN=10 # depends on which SPI bus (0 or 1) is being used
     PUBLIC PICO_DEFAULT_SPI_TX_PIN=11  # depends on which SPI bus (0 or 1) is being used
-    PUBLIC PICO_DEFAULT_SPI_RX_PIN=12 # depends on which SPI bus (0 or 1) is being used
+    PUBLIC PICO_DEFAULT_SPI_RX_PIN=12 # depends on which SPI bus (0 or 1) is being used 
     PUBLIC PICO_BUILD
 )

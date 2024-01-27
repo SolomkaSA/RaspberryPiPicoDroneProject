@@ -16,7 +16,7 @@ public:
         ForeAttack,
         SearchingTargets,
         InFlight;
-        bool isCalibrateMotors = false;
+    bool isCalibrateMotors = false;
     // int16_t[] SelectedAutopilot;
     int16_t Pitch, Yaw, Roll;
     int16_t CurrentHight, MinimumHight, MaximumHight, AvgHight;
@@ -34,24 +34,25 @@ public:
         printf("Start Init!\r\n");
         Sensors.Init();
         printf("Start Calibrate!\r\n");
-        Sensors.Calibrate();        
-        printf("Start Calibrate Motors!\r\n");  
-        RCStation.SetStartPosition();   
-        printf("END Init!\r\n"); 
+        Sensors.Calibrate();
+        printf("Start Calibrate Motors!\r\n");
+        RCStation.SetStartPosition();
+        printf("END Init!\r\n");
     }
     void Run()
     {
         Sensors.StartHandling();
-        
-        if(Sensors.GyroZYaw >1.5)    
-            { 
-                  RCStation.LoadEngine(Sensors.GyroZYaw);
-            }
-            else{
-                RCStation.StopEngines();
-            }
+
+        if (Sensors.GyroZYaw > 1.5)
+        {
+            RCStation.LoadEngine(Sensors.GyroZYaw);
+        }
+        else
+        {
+            RCStation.StopEngines();
+        }
     }
-     void StartMotors()
-    { 
+    void StartMotors()
+    {
     }
 };

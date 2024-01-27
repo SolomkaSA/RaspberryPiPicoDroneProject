@@ -12,7 +12,11 @@
         "ranges": "cpp",
         "my_debug.h": "c",
         "sd_spi.h": "c",
-        "sstream": "cpp"    
+        "sstream": "cpp",
+        "list": "cpp",
+        "regex": "cpp",
+        "cstddef": "cpp",
+        "*.tcc": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

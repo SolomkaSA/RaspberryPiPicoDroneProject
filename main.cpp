@@ -9,6 +9,7 @@
 int main()
 {
     stdio_init_all();
+    time_init();
     if (cyw43_arch_init())
     {
         printf("WiFi init failed");
@@ -30,20 +31,20 @@ int main()
     FlightController flc;
     printf("Init Sensors!\r\n");
     // gpio_put(led_pin, false);
-    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0); 
+    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
     flc.Init();
     printf("Start Loop!\r\n");
     // Loop forever
     while (true)
     {
         // Blink LED
-        printf("Blinking!\r\n");
+        // printf("Blinking!\r\n");
         // gpio_put(led_pin, true);
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
         flc.Run();
         sleep_ms(30);
         // gpio_put(led_pin, false);
-        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);           
-        sleep_ms(30);    
+        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
+        sleep_ms(30);
     }
 }

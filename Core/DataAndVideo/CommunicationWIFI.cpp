@@ -1,25 +1,29 @@
-// #include "../Common/Constants.cpp"
+#include "../Common/Constants.cpp"
 #include "pico/stdlib.h" // printf(), sleep_ms(), getchar_timeout_us(), to_us_since_boot(), get_absolute_time()
 #include "pico/bootrom.h"
+#include "hardware/spi.h"
 #include <tusb.h> // tud_cdc_connected()
 // #include "../RF24/RF24.cpp"
 #include "../RF24/RF24.h"
-#include "../RF24/examples_pico/defaultPins.h" // board presumptive default pin numbers for CE_PIN and CSN_PIN
-// // #include "RF24/utility/RPi/includes.h"
-
+SPI my_spi;
+struct payload
+{
+    float data1;
+    char data2;
+};
+payload payload;
 class CommunicationWIFI
 {
 public:
     // RF24 radio = RF24(17, 18); // 17 18 Pico
     // RF24 radio = RF24(18, 17); // 18 17 for Pico W
-    RF24 radio = RF24(9, 14, 10000000); // 9, 14 for Pico W PRODUCTION 10000000
+    RF24 radio = RF24(9, 14); // ce = 9, csn= 14 for Pico W PRODUCTION 10000000
     // Used to control whether this node is sending or receiving
     bool role = false; // true = TX role, false = RX role
 
     // For this example, we'll be using a payload containing
     // a single float number that will be incremented
     // on every successful transmission
-    float payload = 0.0;
 
     char *messages;
     void Message(char *msg)
@@ -32,26 +36,27 @@ public:
         uint8_t address[][6] = {"1Node", "2Node"};
         // It is very helpful to think of an address as a path instead of as
         // an identifying device destination
-
+        // PUBLIC PICO_DEFAULT_SPI_SCK_PIN=10 # depends on which SPI bus (0 or 1) is being used
+        // PUBLIC PICO_DEFAULT_SPI_TX_PIN=11  # depends on which SPI bus (0 or 1) is being used
+        // PUBLIC PICO_DEFAULT_SPI_RX_PIN=12
         // to use different addresses on a pair of radios, we need a variable to
         // uniquely identify which address this radio will use to transmit
         bool radioNumber = 1; // 0 uses address[0] to transmit, 1 uses address[1] to transmit
-
+        my_spi.begin(spi1);
         // wait here until the CDC ACM (serial port emulation) is connected
-        while (!tud_cdc_connected())
-        {
-            sleep_ms(10);
-        }
+        // while (!tud_cdc_connected())
+        // {
+        //     sleep_ms(10);
+        // }
 
         // initialize the transceiver on the SPI bus
-        if (!radio.begin())
+        if (!radio.begin(&my_spi))
         {
             printf("radio hardware is not responding!!\n");
+
+            sleep_ms(1000);
             return false;
         }
-
-        // print example's introductory prompt
-        printf("RF24/examples_pico/gettingStarted\n");
 
         // To set the radioNumber via the Serial terminal on startup
         printf("Which radio is this? Enter '0' or '1'. Defaults to '0'\n");
@@ -62,9 +67,10 @@ public:
         // Set the PA Level low to try preventing power supply related problems
         // because these examples are likely run with nodes in close proximity to
         // each other.
-        radio.setPALevel(RF24_PA_MAX); // RF24_PA_MAX is default.
-        radio.setDataRate(RF24_2MBPS);
-        radio.setChannel(75);
+        // Greater level = more consumption = longer distance
+        radio.setPALevel(RF24_PA_MIN);   // RF24_PA_MAX is default. (RF24_PA_MIN|RF24_PA_LOW|RF24_PA_HIGH|RF24_PA_MAX)
+        radio.setDataRate(RF24_250KBPS); // (RF24_250KBPS|RF24_1MBPS|RF24_2MBPS)
+        radio.setChannel(111);
         // save on transmission time by setting the radio to only transmit the
         // number of bytes we need to transmit a float
         radio.setPayloadSize(sizeof(payload)); // float datatype occupies 4 bytes
@@ -102,8 +108,8 @@ public:
             // This device is a TX node
             messages = "Message new %s";
             uint64_t start_timer = to_us_since_boot(get_absolute_time()); // start the timer
-            // bool report = radio.write(&payload, sizeof(payload));         // transmit & save the report
-            bool report = radio.write(&messages, sizeof(messages));
+            bool report = radio.write(&payload, sizeof(payload));         // transmit & save the report
+            // bool report = radio.write(&messages, sizeof(messages));
             uint64_t end_timer = to_us_since_boot(get_absolute_time()); // end the timer
 
             if (report)
@@ -112,7 +118,8 @@ public:
                 printf("Transmission successful! Time to transmit = %llu us. Sent: %f\n", end_timer - start_timer, messages);
 
                 // increment float payload
-                payload += 0.01;
+                payload.data1 += 0.01;
+                payload.data2 = 'x';
                 // messages + payload;
             }
             else
@@ -133,10 +140,10 @@ public:
             {                                           // is there a payload? get the pipe number that recieved it
                 uint8_t bytes = radio.getPayloadSize(); // get the size of the payload
                                                         // radio.read(&payload, bytes);            // fetch payload from FIFO
-                radio.read(&messages, bytes);
+                radio.read(&payload, bytes);
                 // print the size of the payload, the pipe number, payload's value
                 // printf("Received %d bytes on pipe %d: %f\n", bytes, pipe, payload);
-                printf("Received %d bytes on pipe %d: %f\n", bytes, pipe, messages);
+                printf("Received %d bytes on pipe %d: %c %f\n", bytes, pipe, payload.data2, payload.data1);
             }
         } // role
         char str[] = {NULL};

@@ -13,7 +13,7 @@ public:
     float PWMMotor1, PWMMotor2, PWMMotor3, PWMMotor4;
     bool RCEnabled = false;
     struct bmp280_calib_param params;
-    //  CommunicationWIFI connection;
+    CommunicationWIFI connection;
     // SDCard sdCard;
     void Calibrate()
     {
@@ -24,19 +24,27 @@ public:
     }
     void Init()
     {
+        // sdCard.InitSDInstance();
         MPU6050_Init();
         bmp280_init();
-        // RCEnabled = connection.setup();
+        while (!RCEnabled)
+        {
+            RCEnabled = connection.setup();
+        }
     }
     void LoadData()
     {
     }
     void StartHandling()
     {
-        // if (RCEnabled)
-        //     connection.loop();
-        // else
-        //     RCEnabled = connection.setup();
+        // rem commenting block below if you afraid about endless loop
+        // when RC in some time would broken maybe
+        // connection.loop();
+        // and commented below block between RCEnable and Setup
+        if (RCEnabled)
+            connection.loop();
+        else
+            RCEnabled = connection.setup();
         MPU6050_YawPitchRoll(&GyroZYaw, &GyroYPitch, &GyroXRoll, &GyroAccelTemperature);
         Run_BMP280(1002.58, &EnviromentTemperature, &Pressure, &params);
 
