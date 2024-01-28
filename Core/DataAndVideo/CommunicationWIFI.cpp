@@ -1,23 +1,16 @@
 #include "../Common/Constants.cpp"
+#include "../Common/Models/StructuresForRC.cpp"
 #include "pico/stdlib.h" // printf(), sleep_ms(), getchar_timeout_us(), to_us_since_boot(), get_absolute_time()
 #include "pico/bootrom.h"
 #include "hardware/spi.h"
-#include <tusb.h> // tud_cdc_connected()
-// #include "../RF24/RF24.cpp"
 #include "../RF24/RF24.h"
 SPI my_spi;
-struct payload
-{
-    float data1;
-    char data2;
-};
-payload payload;
+
 class CommunicationWIFI
 {
 public:
-    // RF24 radio = RF24(17, 18); // 17 18 Pico
-    // RF24 radio = RF24(18, 17); // 18 17 for Pico W
-    RF24 radio = RF24(9, 14); // ce = 9, csn= 14 for Pico W PRODUCTION 10000000
+    RF24 radio = RF24(NRF24_CE_GPIO, NRF24_CSN_GPIO); // ce = 9, csn= 14 for Pico W PRODUCTION 10000000
+    struct payload payload;
     // Used to control whether this node is sending or receiving
     bool role = false; // true = TX role, false = RX role
 
@@ -36,24 +29,15 @@ public:
         uint8_t address[][6] = {"1Node", "2Node"};
         // It is very helpful to think of an address as a path instead of as
         // an identifying device destination
-        // PUBLIC PICO_DEFAULT_SPI_SCK_PIN=10 # depends on which SPI bus (0 or 1) is being used
-        // PUBLIC PICO_DEFAULT_SPI_TX_PIN=11  # depends on which SPI bus (0 or 1) is being used
-        // PUBLIC PICO_DEFAULT_SPI_RX_PIN=12
         // to use different addresses on a pair of radios, we need a variable to
         // uniquely identify which address this radio will use to transmit
         bool radioNumber = 1; // 0 uses address[0] to transmit, 1 uses address[1] to transmit
         my_spi.begin(spi1);
-        // wait here until the CDC ACM (serial port emulation) is connected
-        // while (!tud_cdc_connected())
-        // {
-        //     sleep_ms(10);
-        // }
 
         // initialize the transceiver on the SPI bus
         if (!radio.begin(&my_spi))
         {
             printf("radio hardware is not responding!!\n");
-
             sleep_ms(1000);
             return false;
         }
@@ -93,7 +77,7 @@ public:
 
         // For debugging info
         // radio.printDetails();       // (smaller) function that prints raw register values
-        radio.printPrettyDetails(); // (larger) function that prints human readable data
+        // radio.printPrettyDetails(); // (larger) function that prints human readable data
 
         // role variable is hardcoded to RX behavior, inform the user of this
         printf("*** PRESS 'T' to begin transmitting to the other node\n");
@@ -105,47 +89,57 @@ public:
     {
         if (role)
         {
-            // This device is a TX node
-            messages = "Message new %s";
-            uint64_t start_timer = to_us_since_boot(get_absolute_time()); // start the timer
-            bool report = radio.write(&payload, sizeof(payload));         // transmit & save the report
-            // bool report = radio.write(&messages, sizeof(messages));
-            uint64_t end_timer = to_us_since_boot(get_absolute_time()); // end the timer
-
-            if (report)
-            {
-                // payload was delivered; print the payload sent & the timer result
-                printf("Transmission successful! Time to transmit = %llu us. Sent: %f\n", end_timer - start_timer, messages);
-
-                // increment float payload
-                payload.data1 += 0.01;
-                payload.data2 = 'x';
-                // messages + payload;
-            }
-            else
-            {
-                // payload was not delivered
-                printf("Transmission failed or timed out\n");
-            }
-
-            // to make this example readable in the serial terminal
-            // sleep_ms(1000); // slow transmissions down by 1 second
+            TransceiverMood();
         }
         else
         {
-            // This device is a RX node
+            ReceivingMood();
+        }
+    } // loop
 
-            uint8_t pipe;
-            if (radio.available(&pipe))
-            {                                           // is there a payload? get the pipe number that recieved it
-                uint8_t bytes = radio.getPayloadSize(); // get the size of the payload
-                                                        // radio.read(&payload, bytes);            // fetch payload from FIFO
-                radio.read(&payload, bytes);
-                // print the size of the payload, the pipe number, payload's value
-                // printf("Received %d bytes on pipe %d: %f\n", bytes, pipe, payload);
-                printf("Received %d bytes on pipe %d: %c %f\n", bytes, pipe, payload.data2, payload.data1);
-            }
-        } // role
+    // This device is a TX node
+    void TransceiverMood()
+    {
+        uint64_t start_timer = to_us_since_boot(get_absolute_time()); // start the timer
+        bool report = radio.write(&payload, sizeof(payload));         // transmit & save the report
+        uint64_t end_timer = to_us_since_boot(get_absolute_time());   // end the timer
+
+        if (report)
+        {
+            // payload was delivered; print the payload sent & the timer result
+            printf("Transmission successful! Time to transmit = %llu us. Sent: %f\n", end_timer - start_timer, messages);
+
+            // increment float payload
+            payload.LeftJoystickX += 1;
+            payload.LeftJoystickY += 2;
+            payload.RightJoystickX += 3;
+            payload.RightJoystickY -= 4;
+        }
+        else
+        {
+            // payload was not delivered
+            printf("Transmission failed or timed out\n");
+        }
+        // to make this example readable in the serial terminal
+        // sleep_ms(1000); // slow transmissions down by 1 second
+    }
+
+    // This device is a RX node
+    void ReceivingMood()
+    {
+        uint8_t pipe;
+        if (radio.available(&pipe))
+        {                                           // is there a payload? get the pipe number that recieved it
+            uint8_t bytes = radio.getPayloadSize(); // get the size of the payload
+                                                    // radio.read(&payload, bytes);            // fetch payload from FIFO
+            radio.read(&payload, bytes);
+            // print the size of the payload, the pipe number, payload's value
+            printf("Received %d bytes on pipe %d: %c %f\n", bytes, pipe, payload.LeftJoystickX, payload.RightJoystickY);
+        }
+    }
+    void ChangeRole()
+    {
+        // role
         char str[] = {NULL};
         get_block(str);
         char input = str[0];
@@ -200,7 +194,7 @@ public:
                 printf("*** powerUp\n");
             }
         }
-    } // loop
+    }
     uint16_t get_block(char *buffer)
     {
         uint16_t buffer_index = 0;

@@ -4,6 +4,7 @@
 #include "pico/cyw43_arch.h"
 #include "hardware/pwm.h"
 // #include "../core/Common/Constant.cpp"
+#include <tusb.h> // tud_cdc_connected()
 #include "../Core/FlightController.cpp"
 #include "../core/FileSystem/SDCard.cpp"
 int main()
@@ -15,6 +16,14 @@ int main()
         printf("WiFi init failed");
         return -1;
     }
+
+    // WARNING!!!! ONLY FOR DEBUGGING WITH USB!!!!
+    // wait here until the CDC ACM (serial port emulation) is connected
+    // while (!tud_cdc_connected())
+    // {
+    //     sleep_ms(10);
+    // }
+
     cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
     // const uint led_pin = 25;
     const uint led_pin = PICO_DEFAULT_LED_PIN;

@@ -5,6 +5,7 @@ include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/RF24/CMakeLists.txt)
 
 set(PICO_BOARD pico_w)
+# set(PICO_BOARD pico)
 set(PROJECT_NAME FlightController)
 # Set name of project (as PROJECT_NAME) and C/C++ standards
 project(${PROJECT_NAME} C CXX ASM)
