@@ -45,12 +45,12 @@ public:
             connection.loop();
         else
             RCEnabled = connection.setup();
-        MPU6050_YawPitchRoll(&GyroZYaw, &GyroYPitch, &GyroXRoll, &GyroAccelTemperature);
-        Run_BMP280(1002.58, &EnviromentTemperature, &Pressure, &params);
+        // MPU6050_YawPitchRoll(&GyroZYaw, &GyroYPitch, &GyroXRoll, &GyroAccelTemperature);
+        // Run_BMP280(1002.58, &EnviromentTemperature, &Pressure, &params);
 
-        char array[5000];
-        sprintf(array, "GyroZYaw %.3f, &GyroYPitch %.3f, GyroXRoll %.3f, &GyroAccelTemperature %.3f, &EnviromentTemperature %.3f, &Pressure %.3f \r\n", GyroZYaw, GyroYPitch, GyroXRoll, GyroAccelTemperature, EnviromentTemperature, Pressure);
-        printf(array);
+        // char array[5000];
+        // sprintf(array, "GyroZYaw %.3f, &GyroYPitch %.3f, GyroXRoll %.3f, &GyroAccelTemperature %.3f, &EnviromentTemperature %.3f, &Pressure %.3f \r\n", GyroZYaw, GyroYPitch, GyroXRoll, GyroAccelTemperature, EnviromentTemperature, Pressure);
+        // printf(array);
 
         // sdCard.WriteIntoFile("test.txt", array);
     }

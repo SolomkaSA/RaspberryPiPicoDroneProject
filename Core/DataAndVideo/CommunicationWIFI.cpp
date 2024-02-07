@@ -31,7 +31,7 @@ public:
         // an identifying device destination
         // to use different addresses on a pair of radios, we need a variable to
         // uniquely identify which address this radio will use to transmit
-        bool radioNumber = 1; // 0 uses address[0] to transmit, 1 uses address[1] to transmit
+        bool radioNumber = 0; // 0 uses address[0] to transmit, 1 uses address[1] to transmit
         my_spi.begin(spi1);
 
         // initialize the transceiver on the SPI bus
@@ -44,17 +44,17 @@ public:
 
         // To set the radioNumber via the Serial terminal on startup
         printf("Which radio is this? Enter '0' or '1'. Defaults to '0'\n");
-        char input = getchar();
-        radioNumber = input == 49;
-        printf("radioNumber = %d\n", (int)radioNumber);
+        // char input = getchar();
+        // radioNumber = input == 49;
+        // printf("radioNumber = %d\n", (int)radioNumber);
 
         // Set the PA Level low to try preventing power supply related problems
         // because these examples are likely run with nodes in close proximity to
         // each other.
         // Greater level = more consumption = longer distance
-        radio.setPALevel(RF24_PA_MIN);   // RF24_PA_MAX is default. (RF24_PA_MIN|RF24_PA_LOW|RF24_PA_HIGH|RF24_PA_MAX)
-        radio.setDataRate(RF24_250KBPS); // (RF24_250KBPS|RF24_1MBPS|RF24_2MBPS)
-        radio.setChannel(111);
+        radio.setPALevel(RF24_PA_MIN); // RF24_PA_MAX is default. (RF24_PA_MIN|RF24_PA_LOW|RF24_PA_HIGH|RF24_PA_MAX)
+        radio.setDataRate(RF24_2MBPS); // (RF24_250KBPS|RF24_1MBPS|RF24_2MBPS)
+        radio.setChannel(75);
         // save on transmission time by setting the radio to only transmit the
         // number of bytes we need to transmit a float
         radio.setPayloadSize(sizeof(payload)); // float datatype occupies 4 bytes
@@ -77,7 +77,7 @@ public:
 
         // For debugging info
         // radio.printDetails();       // (smaller) function that prints raw register values
-        // radio.printPrettyDetails(); // (larger) function that prints human readable data
+        radio.printPrettyDetails(); // (larger) function that prints human readable data
 
         // role variable is hardcoded to RX behavior, inform the user of this
         printf("*** PRESS 'T' to begin transmitting to the other node\n");
@@ -110,10 +110,10 @@ public:
             printf("Transmission successful! Time to transmit = %llu us. Sent: %f\n", end_timer - start_timer, messages);
 
             // increment float payload
-            payload.LeftJoystickX += 1;
-            payload.LeftJoystickY += 2;
-            payload.RightJoystickX += 3;
-            payload.RightJoystickY -= 4;
+            // payload.LeftJoystickX += 1;
+            // payload.LeftJoystickY += 2;
+            // payload.RightJoystickX += 3;
+            // payload.RightJoystickY -= 4;
         }
         else
         {
@@ -133,8 +133,13 @@ public:
             uint8_t bytes = radio.getPayloadSize(); // get the size of the payload
                                                     // radio.read(&payload, bytes);            // fetch payload from FIFO
             radio.read(&payload, bytes);
+            uint8_t L_X = payload.LeftJoystickX;
+            uint8_t L_Y = payload.LeftJoystickY;
+            uint8_t R_X = payload.RightJoystickX;
+            uint8_t R_Y = payload.RightJoystickY;
             // print the size of the payload, the pipe number, payload's value
-            printf("Received %d bytes on pipe %d: %c %f\n", bytes, pipe, payload.LeftJoystickX, payload.RightJoystickY);
+            // printf("Received %d bytes on pipe %d: L_X: %d L_Y: %d R_X: %d R_Y: %d\n", bytes, pipe, L_X, L_Y, R_X, R_Y);
+            // printf("Received %d bytes on pipe %d: %c %f\n", bytes, pipe, payload.data2, payload.data1);
         }
     }
     void ChangeRole()

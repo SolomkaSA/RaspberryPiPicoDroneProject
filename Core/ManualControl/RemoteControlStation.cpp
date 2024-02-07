@@ -4,6 +4,10 @@
 
 class RemoteControlStation
 {
+private:
+    uint8_t constatMinForStart = 255;
+    uint8_t constatMultiplicationCount = 10;
+
 public:
     int DefaultPitch, DefaultRoll, DefaultYaw, DefaultClimb,
         MaxPitch, MaxRoll, MaxYaw, MaxSpeedClimb,
@@ -52,10 +56,10 @@ public:
     }
     void SetStartPosition()
     {
-        engine.SetEngineSpeed(slice_num_motor_1_MOTOR_LEFT_UP_PIN, chan_motor_1_MOTOR_LEFT_UP_PIN, 3);
-        engine.SetEngineSpeed(slice_num_motor_2_MOTOR_LEFT_DOWN_PIN, chan_motor_2_MOTOR_LEFT_DOWN_PIN, 3);
-        engine.SetEngineSpeed(slice_num_motor_3_MOTOR_RIGHT_UP_PIN, chan_motor_3_MOTOR_RIGHT_UP_PIN, 3);
-        engine.SetEngineSpeed(slice_num_motor_4_MOTOR_RIGHT_DOWN_PIN, chan_motor_4_MOTOR_RIGHT_DOWN_PIN, 3);
+        engine.SetEngineSpeed(slice_num_motor_1_MOTOR_LEFT_UP_PIN, chan_motor_1_MOTOR_LEFT_UP_PIN, 1);
+        engine.SetEngineSpeed(slice_num_motor_2_MOTOR_LEFT_DOWN_PIN, chan_motor_2_MOTOR_LEFT_DOWN_PIN, 1);
+        engine.SetEngineSpeed(slice_num_motor_3_MOTOR_RIGHT_UP_PIN, chan_motor_3_MOTOR_RIGHT_UP_PIN, 1);
+        engine.SetEngineSpeed(slice_num_motor_4_MOTOR_RIGHT_DOWN_PIN, chan_motor_4_MOTOR_RIGHT_DOWN_PIN, 1);
     }
     void CalculateCurrentPosition()
     {
@@ -76,6 +80,7 @@ public:
     }
     void LoadEngine(int loadCount)
     {
+        loadCount = mapOne(loadCount, 130, 255, 0, 100);
         engine.EngineSpeed(MOTOR_LEFT_UP_PIN, loadCount);
         engine.EngineSpeed(MOTOR_LEFT_DOWN_PIN, loadCount);
         engine.EngineSpeed(MOTOR_RIGHT_UP_PIN, loadCount);

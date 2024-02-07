@@ -42,13 +42,16 @@ public:
     void Run()
     {
         Sensors.StartHandling();
-        // Sensors.connection.payload.LeftJoystickX
+        // if (Sensors.connection.payload.RightJoystickX == 255 && RCStation.engine.wrap == 0)
+        //     RCStation.SetStartPosition(Sensors.connection.payload.RightJoystickX);
+        // else if (Sensors.connection.payload.RightJoystickX == 0 && RCStation.engine.wrap == 0)
+        //     RCStation.SetStartPosition(Sensors.connection.payload.RightJoystickX);
 
-        if (Sensors.GyroZYaw > 1.5)
+        if (Sensors.connection.payload.RightJoystickX > 129)
         {
-            RCStation.LoadEngine(Sensors.GyroZYaw);
+            RCStation.LoadEngine(Sensors.connection.payload.RightJoystickX);
         }
-        else
+        else if (Sensors.connection.payload.RightJoystickX == 0)
         {
             RCStation.StopEngines();
         }
