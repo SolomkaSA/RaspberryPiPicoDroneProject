@@ -43,8 +43,7 @@ THE SOFTWARE.
 #include "I2Cdev.h"
 #include "helper_3dmath.h"
 #include "pico/double.h"
-#include "MPU6050.h"
-#include "MPU6050.cpp"
+#include "MPU6050.h" 
 // MotionApps 2.0 DMP implementation, built using the MPU-6050EVB evaluation board
 #define MPU6050_INCLUDE_DMP_MOTIONAPPS20 // same definitions Should work with V6.12
 

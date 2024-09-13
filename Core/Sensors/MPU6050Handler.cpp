@@ -10,8 +10,8 @@
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
 #include "hardware/i2c.h"
-#include "MPU6050I2Cdev/mpu6050_calibration.cpp"
 #include "MPU6050I2Cdev/MPU6050_6Axis_MotionApps_V6_12.h"
+#include "MPU6050I2Cdev/mpu6050_calibration.cpp"
 
 MPU6050 mpu;
 
