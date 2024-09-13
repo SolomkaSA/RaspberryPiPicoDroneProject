@@ -49,7 +49,19 @@ public:
 
         if (Sensors.connection.payload.RightJoystickX > 129)
         {
-            RCStation.LoadEngine(Sensors.connection.payload.RightJoystickX);
+            RCStation.Right(Sensors.connection.payload.RightJoystickX);
+        }
+        if (Sensors.connection.payload.RightJoystickX < 129)
+        {
+            RCStation.Left(Sensors.connection.payload.RightJoystickX);
+        }
+        if (Sensors.connection.payload.RightJoystickY < 129)
+        {
+            RCStation.Forward(Sensors.connection.payload.RightJoystickY);
+        }  
+         if (Sensors.connection.payload.RightJoystickY > 129)
+        {
+            RCStation.Back(Sensors.connection.payload.RightJoystickY);
         }
         else if (Sensors.connection.payload.RightJoystickX == 0)
         {

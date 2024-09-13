@@ -95,23 +95,26 @@ public:
     }
     void Forward(int loadCount)
     {
-
+        loadCount = mapOne(loadCount, 0, 129, 0, 100);
         engine.EngineSpeed(MOTOR_LEFT_DOWN_PIN, loadCount);
         engine.EngineSpeed(MOTOR_RIGHT_DOWN_PIN, loadCount);
     }
 
     void Back(int loadCount)
     {
+        loadCount = mapOne(loadCount, 130, 255, 0, 100);
         engine.EngineSpeed(MOTOR_RIGHT_UP_PIN, loadCount);
         engine.EngineSpeed(MOTOR_LEFT_UP_PIN, loadCount);
     }
     void Left(int loadCount)
     {
+        loadCount = mapOne(loadCount, 130, 255, 0, 100);
         engine.EngineSpeed(MOTOR_LEFT_UP_PIN, loadCount);
         engine.EngineSpeed(MOTOR_LEFT_DOWN_PIN, loadCount);
     }
     void Right(int loadCount)
     {
+        loadCount = mapOne(loadCount, 0, 129, 0, 100);
         engine.EngineSpeed(MOTOR_RIGHT_UP_PIN, loadCount);
         engine.EngineSpeed(MOTOR_RIGHT_DOWN_PIN, loadCount);
     }
