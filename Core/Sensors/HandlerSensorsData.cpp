@@ -14,7 +14,7 @@ public:
     bool RCEnabled = false;
     struct bmp280_calib_param params;
     CommunicationWIFI connection;
-    // SDCard sdCard;
+    SDCard sdCard;
     void Calibrate()
     {
         bmp280_get_calib_params(&params);
@@ -24,7 +24,7 @@ public:
     }
     void Init()
     {
-        // sdCard.InitSDInstance();
+        sdCard.InitSDInstance();
         MPU6050_Init();
         bmp280_init();
         while (!RCEnabled)
@@ -42,7 +42,7 @@ public:
         // connection.loop();
         // and commented below block between RCEnable and Setup
         if (RCEnabled)
-            connection.loop();
+        connection.loop();
         else
             RCEnabled = connection.setup();
         MPU6050_YawPitchRoll(&GyroZYaw, &GyroYPitch, &GyroXRoll, &GyroAccelTemperature);
@@ -52,7 +52,7 @@ public:
         sprintf(array, "GyroZYaw %.3f, &GyroYPitch %.3f, GyroXRoll %.3f, &GyroAccelTemperature %.3f, &EnviromentTemperature %.3f, &Pressure %.3f \r\n", GyroZYaw, GyroYPitch, GyroXRoll, GyroAccelTemperature, EnviromentTemperature, Pressure);
         printf(array);
 
-        // sdCard.WriteIntoFile("test.txt", array);
+        sdCard.WriteIntoFile("test.txt", array);
     }
     void StopHandling(bool force = false)
     {
