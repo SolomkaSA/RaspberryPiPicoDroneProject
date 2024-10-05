@@ -25,6 +25,9 @@ public:
     void Init()
     {
         sdCard.InitSDInstance();
+        sdCard.CreateEmptyFile("test.txt");
+        sdCard.CreateEmptyFile("test2.txt");
+        sdCard.CreateEmptyFile("Solomka.txt");
         MPU6050_Init();
         bmp280_init();
         while (!RCEnabled)
@@ -42,7 +45,7 @@ public:
         // connection.loop();
         // and commented below block between RCEnable and Setup
         if (RCEnabled)
-        connection.loop();
+            connection.loop();
         else
             RCEnabled = connection.setup();
         MPU6050_YawPitchRoll(&GyroZYaw, &GyroYPitch, &GyroXRoll, &GyroAccelTemperature);

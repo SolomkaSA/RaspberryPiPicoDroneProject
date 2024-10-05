@@ -1,4 +1,5 @@
 #include "../common/Constants.cpp"
+#include "hardware/clocks.h"
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
 #include "hardware/i2c.h"
@@ -11,7 +12,8 @@ class HandlerPicoOne
 public:
     void InitBoard()
     {
-        spi_init(spi1, 400 * 1000);
+        set_sys_clock_khz(133000, false);
+        spi_init(spi1, 40 * 1000000);
         // spi_init(spi0, 10000000);
         i2c_init(i2c_default, 400 * 1000);
         // PUBLIC PICO_DEFAULT_SPI_SCK_PIN=10 # depends on which SPI bus (0 or 1) is being used

@@ -59,6 +59,7 @@ target_link_libraries(FLIGHTCONTROLLER
     hardware_gpio
     hardware_pwm
     hardware_adc
+    hardware_clocks
     FatFs_SPI
     RF24
     # ardino_pico
@@ -75,5 +76,6 @@ target_compile_definitions(${CMAKE_PROJECT_NAME}
     PUBLIC PICO_DEFAULT_SPI_SCK_PIN=10 # depends on which SPI bus (0 or 1) is being used
     PUBLIC PICO_DEFAULT_SPI_TX_PIN=11  # depends on which SPI bus (0 or 1) is being used
     PUBLIC PICO_DEFAULT_SPI_RX_PIN=12 # depends on which SPI bus (0 or 1) is being used 
+    PUBLIC PICO_DEFAULT_SPI_CSN_PIN=13
     PUBLIC PICO_BUILD
 )

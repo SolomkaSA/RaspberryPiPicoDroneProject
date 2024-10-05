@@ -22,19 +22,19 @@ static spi_t spis[] = { // One for each SPI.
            can only mangage 5 MHz. Those are all I've tried. */
         // .baud_rate = 1000 * 1000,
         // .baud_rate = 6250 * 1000, // 6250 * 1000, // The limitation here is SPI slew rate.
-        // .baud_rate = 6250 * 1000,  // The limitation here is SPI slew rate.
-        .baud_rate = 25 * 1000 * 1000, // Actual frequency: 20833333. Has
-                                       // worked for me with SanDisk.
+        .baud_rate = 6250 * 1000, // The limitation here is SPI slew rate.
+        // .baud_rate = 25 * 1000 * 1000, // Actual frequency: 20833333. Has
+        // worked for me with SanDisk.
         // .dma_isr = spi0_dma_isr
     }};
 
 // Hardware Configuration of the SD Card "objects"
 static sd_card_t sd_cards[] = { // One for each SD card
     {
-        .pcName = "0:",  // Name used to mount device
-        .spi = &spis[0], // Pointer to the SPI driving this card
-        .ss_gpio = 13,   // The SPI slave select GPIO for this SD card
-        // .use_card_detect = 1,
+        .pcName = "0:",                      // Name used to mount device
+        .spi = &spis[0],                     // Pointer to the SPI driving this card
+        .ss_gpio = PICO_DEFAULT_SPI_CSN_PIN, // The SPI slave select GPIO for this SD card
+        .use_card_detect = 1,
         .card_detected_true = 1,
     }};
 

@@ -65,6 +65,38 @@ public:
       add_sd_card(p_sd_card);
       */
     }
+
+    void CreateEmptyFile(char filename[])
+    {
+        int ret;
+        // Initialize SD card
+        while (!sd_init_driver())
+        {
+            printf("ERROR: Could not initialize SD card\r\n");
+        }
+        // Mount drive
+        fr = f_mount(&pSD->fatfs, pSD->pcName, 1);
+        while (fr != FR_OK)
+        {
+            printf("ERROR: Could not mount filesystem (%d)\r\n", fr);
+            fr = f_mount(&pSD->fatfs, pSD->pcName, 1);
+        }
+
+        // Open file for writing ()
+        fr = f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
+        while (fr != FR_OK)
+        {
+            printf("ERROR: Could not open file (%d)\r\n", fr);
+            fr = f_open(&fil, filename, FA_OPEN_APPEND | FA_WRITE);
+        }
+
+        // Close file
+        fr = f_close(&fil);
+        if (fr != FR_OK)
+        {
+            printf("ERROR: Could not close file (%d)\r\n", fr);
+        }
+    }
     void WriteIntoFile(char filename[], char *text)
     {
 
@@ -79,12 +111,12 @@ public:
         while (fr != FR_OK)
         {
             printf("ERROR: Could not mount filesystem (%d)\r\n", fr);
-            fr = f_mount(&fs, "0:", 1);
+            fr = f_mount(&pSD->fatfs, pSD->pcName, 1);
         }
 
         // Open file for writing ()
-        // fr = f_open(&fil, filename, FA_OPEN_APPEND | FA_WRITE);
-        fr = f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
+        fr = f_open(&fil, filename, FA_OPEN_APPEND | FA_WRITE);
+        // fr = f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
         while (fr != FR_OK)
         {
             printf("ERROR: Could not open file (%d)\r\n", fr);
